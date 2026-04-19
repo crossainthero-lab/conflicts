@@ -7,8 +7,9 @@
       "center": [49.0, 31.2],
       "zoom": 6
     },
-    "rssQuery": "Ukraine drone missile shelling bombing strike attack",
-    "refreshIntervalSeconds": 600
+    "rssQuery": "Ukraine drone missile shelling bombing strike attack when:7d",
+    "refreshIntervalSeconds": 600,
+    "maxAgeHours": 168
   },
   {
     "id": "israel-gaza",
@@ -18,8 +19,9 @@
       "center": [31.4, 34.4],
       "zoom": 8
     },
-    "rssQuery": "Gaza Rafah Khan Younis Deir al-Balah airstrike bombing attack aid shelling",
-    "refreshIntervalSeconds": 600
+    "rssQuery": "Gaza Rafah Khan Younis Deir al-Balah airstrike bombing attack aid shelling when:7d",
+    "refreshIntervalSeconds": 600,
+    "maxAgeHours": 168
   },
   {
     "id": "israel-iran-usa",
@@ -29,7 +31,8 @@
       "center": [32.5, 45.0],
       "zoom": 5
     },
-    "rssQuery": "Israel Iran United States strike missile drone retaliation deployment interception",
-    "refreshIntervalSeconds": 600
+    "rssQuery": "Israel Iran United States strike missile drone retaliation deployment interception when:14d",
+    "refreshIntervalSeconds": 600,
+    "maxAgeHours": 336
   }
 ]

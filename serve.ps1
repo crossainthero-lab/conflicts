@@ -175,6 +175,37 @@ function Get-GoogleNewsRssItems {
   return @($rss.rss.channel.item)
 }
 
+function Get-PublishedTimestamp {
+  param([string]$PubDate)
+
+  try {
+    return [datetimeoffset]::Parse($PubDate).UtcDateTime
+  } catch {
+    return $null
+  }
+}
+
+function Filter-RecentRssItems {
+  param(
+    [object[]]$Items,
+    [int]$MaxAgeHours
+  )
+
+  $cutoff = (Get-Date).ToUniversalTime().AddHours(-1 * $MaxAgeHours)
+
+  return $Items |
+    ForEach-Object {
+      $publishedAt = Get-PublishedTimestamp -PubDate ([string]$_.pubDate)
+      [PSCustomObject]@{
+        Item = $_
+        PublishedAt = $publishedAt
+      }
+    } |
+    Where-Object { $null -ne $_.PublishedAt -and $_.PublishedAt -ge $cutoff } |
+    Sort-Object PublishedAt -Descending |
+    ForEach-Object { $_.Item }
+}
+
 function Get-MatchedLocation {
   param(
     [string]$Text,
@@ -302,7 +333,7 @@ function Get-LiveFeed {
 
   try {
     $locations = Get-ConflictLocations -ConflictId $Conflict.id
-    $items = Get-GoogleNewsRssItems -Query $Conflict.rssQuery
+    $items = Filter-RecentRssItems -Items (Get-GoogleNewsRssItems -Query $Conflict.rssQuery) -MaxAgeHours $Conflict.maxAgeHours
     $events = @()
     $index = 0
 
@@ -313,7 +344,7 @@ function Get-LiveFeed {
 
     $events = Deduplicate-Events -Events $events
     if ($events.Count -eq 0) {
-      throw "No live events were returned from the RSS feed."
+      throw "No sufficiently recent live events were returned from the RSS feed."
     }
 
     $feed = [PSCustomObject]@{

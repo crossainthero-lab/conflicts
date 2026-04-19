@@ -54,6 +54,24 @@ function parseRssItems(xmlText) {
   });
 }
 
+function parsePublishedAt(pubDate) {
+  const timestamp = Date.parse(pubDate || "");
+  return Number.isNaN(timestamp) ? null : timestamp;
+}
+
+function filterRecentItems(items, maxAgeHours) {
+  const maxAgeMs = maxAgeHours * 60 * 60 * 1000;
+  const now = Date.now();
+
+  return items
+    .map((item) => ({
+      ...item,
+      _publishedAt: parsePublishedAt(item.pubDate)
+    }))
+    .filter((item) => item._publishedAt && now - item._publishedAt <= maxAgeMs)
+    .sort((a, b) => b._publishedAt - a._publishedAt);
+}
+
 function findLocation(text, locations) {
   const haystack = text.toLowerCase();
 
@@ -172,14 +190,17 @@ export async function onRequestGet(context) {
 
   try {
     const rssText = await fetchGoogleNewsRss(conflict.rssQuery);
-    const items = parseRssItems(rssText).slice(0, 30);
+    const items = filterRecentItems(
+      parseRssItems(rssText),
+      conflict.maxAgeHours || 168
+    ).slice(0, 30);
     const locations = locationsMap[conflict.id] || [];
     const events = deduplicateEvents(
       items.map((item, index) => toEvent(item, conflict, locations, index + 1))
     );
 
     if (!events.length) {
-      throw new Error("No live events were returned from the RSS feed.");
+      throw new Error("No sufficiently recent live events were returned from the RSS feed.");
     }
 
     payload = {

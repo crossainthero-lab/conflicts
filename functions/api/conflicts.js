@@ -13,7 +13,7 @@ export async function onRequestGet(context) {
 
   return Response.json(conflicts, {
     headers: {
-      "Cache-Control": "public, max-age=300"
+      "Cache-Control": "no-store"
     }
   });
 }

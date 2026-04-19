@@ -179,13 +179,6 @@ export async function onRequestGet(context) {
     return Response.json({ error: "Unknown conflict id." }, { status: 404 });
   }
 
-  const cacheKey = new Request(url.toString(), context.request);
-  const cache = caches.default;
-  const cached = await cache.match(cacheKey);
-  if (cached) {
-    return cached;
-  }
-
   let payload;
 
   try {
@@ -226,10 +219,8 @@ export async function onRequestGet(context) {
 
   const response = Response.json(payload, {
     headers: {
-      "Cache-Control": `public, max-age=${conflict.refreshIntervalSeconds}`
+      "Cache-Control": "no-store"
     }
   });
-
-  context.waitUntil(cache.put(cacheKey, response.clone()));
   return response;
 }

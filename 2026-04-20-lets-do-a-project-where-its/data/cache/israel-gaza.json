@@ -1,0 +1,550 @@
+﻿{
+    "conflictId":  "israel-gaza",
+    "sourceLabel":  "Google News RSS via localhost mapper",
+    "status":  "live",
+    "refreshIntervalSeconds":  600,
+    "lastFetchedAt":  "2026-04-20T01:40:24.4906106+10:00",
+    "message":  "Live events were refreshed from Google News RSS and mapped onto conflict-specific locations.",
+    "events":  [
+                   {
+                       "id":  "israel-gaza-rss-1",
+                       "title":  "Air strikes and shelling continue in Gaza",
+                       "description":  "Air strikes and shelling continue in Gaza    UN News",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 03 Dec 2025 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "UN News",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44ZTNuc2l0M1JxaUNJZEpGNzNOUWZ0MUYtOHB0blZPemhKTkpNcDk3cW1kRlNtUV9nbFc1UVNQelA5TGhKNzNTODNMdXQ5VElGSmstekI1RQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-2",
+                       "title":  "Israeli Forces Demolish Homes East of Gaza, Launch Airstrikes and Artillery Shelling on Khan Younis and Deir al-Balah",
+                       "description":  "Israeli Forces Demolish Homes East of Gaza, Launch Airstrikes and Artillery Shelling on Khan Younis and Deir al-Balah    شبكة يافا الإخبارية",
+                       "locationName":  "Khan Younis",
+                       "coords":  [
+                                      31.346,
+                                      34.3039
+                                  ],
+                       "severity":  5,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Wed, 11 Mar 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "شبكة يافا الإخبارية",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wRS1QNXltVUJzVksxbDF3QkhjSGV0aGs0YV9SWUNObEtwMHI2Y096MVZCazRwbmh4eWI1OHdqSTBQZ1dhaFVOcG1JeGFvb1U?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-3",
+                       "title":  "Demolition and Shelling in Khan Yunis and Rafah amid Growing Aid Blockade",
+                       "description":  "Demolition and Shelling in Khan Yunis and Rafah amid Growing Aid Blockade    Palestine Chronicle",
+                       "locationName":  "Rafah",
+                       "coords":  [
+                                      31.2972,
+                                      34.2436
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sun, 02 Nov 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Palestine Chronicle",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSkdDYnplWmZXZ2ZscUpRN3BxVENWbWVMSXRZR3FNQ1FUYVVBRjRWSFg2SVowODliWkVFempOaEhLX29VOXJucVRrVE5jVVg4cWRCM3p1MG5vbnRqS2p3YjV2U2tOWmVYZHFpc1VveVYxSlROendDMk5Xb2ViWTE5ZjJkTDg2eTd4WWMyd0E0RFk5R1hWTWU0bmpEc2ZpZ0FxTlY4U3JzNFYyRmpmcEE?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-4",
+                       "title":  "Israel launches air and ground offensive on Deir al-Balah in central Gaza",
+                       "description":  "Israel launches air and ground offensive on Deir al-Balah in central Gaza    The Guardian",
+                       "locationName":  "Deir al-Balah",
+                       "coords":  [
+                                      31.4178,
+                                      34.3503
+                                  ],
+                       "severity":  1,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Mon, 21 Jul 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "The Guardian",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYTRSZWRoY0xmRWR2RVVNRTF2Y0x1TENmbDZ5UXY2YWxMdlA2S2E0LWxVVXFZUWI1WW9VYlY4Z2xsTDlYV0pzM21qTzBFX2s4S1B0UE90UHNwTU1zLTZQNmh2YjNIajczYWdZQWREdjlLS2dkVkZiRFhfMmtYd2ZrRkpkbk05X2pJeFppR1poTWhZSG42Y2lqbmJxWnFmMVlFdVRkQWhtb21Pa3dpekE?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-5",
+                       "title":  "44 Palestinians killed in latest Israeli attacks across Gaza Strip",
+                       "description":  "44 Palestinians killed in latest Israeli attacks across Gaza Strip    Anadolu Ajansı",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  3,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 14 Sep 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Anadolu Ajansı",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHpjQ3pYRktySjZhQlFZOXhTTHdaNWxKQlhUczA1M1d3b2JpSlBrT3VVbVB2WUtGZk1VTHRIRUt3VVhhX3ZsSkNlYlBWcktWLUhPUGNhU2NrU0UtR3VGWFdYS1BBZjZLZjNsR0lSeVQ2dENsM0sxV2pzTklza0thNVVIeVZzVW55bmMwYWxfdERMdGV0N05rYzFMczdUcnAtYnhvRTVoR21QeW1jY1JSUg?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-6",
+                       "title":  "60 Palestinians killed in Israeli attacks across Gaza: sources",
+                       "description":  "60 Palestinians killed in Israeli attacks across Gaza: sources    Xinhua",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 08 Jul 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Xinhua",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMie0FVX3lxTE95NmhaSFA3YXRYOUY5NlFjY1RCVmhEZWI2QVkwNXdkY3BkNkotSXJxdEcyeGItaU5Gc1JmMlhYOElMSHR0VlF0MkwtRmpROHQxdkpLMFp0cFdTNS1CR1VQOS1iVmswcjY0NW9zeEp5Q1VtYy1xRDhoNG5KOA?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-7",
+                       "title":  "Israeli airstrikes kill 14 Palestinians in Gaza, another 10 killed in attack at food aid site",
+                       "description":  "Israeli airstrikes kill 14 Palestinians in Gaza, another 10 killed in attack at food aid site    PBS",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 05 Jul 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "PBS",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN1o0YkFnSTg5VERjdWxEbm40UmZyNGlnWEJJOWRQajhSYlMtUUwtcU05c2g1ejZ5QmFzbXpYdWdOeWpQZEcxLVBpRm1YREkwRkdZMzJKSjcybGFEMXZiQUN1aXh5Z1FoWXlTOS1TUk9TR09Fd1ZyRlV4TU8tNUpZRW0tY2xvWEtTOWdjNmt6cXJlRS1kMm13NTQ0bFZLemV3b2tXNmlPWHYwWGJxeTF5WlNOLURZdjZ6d2NMejd5M2pNRGQtZ2fSAcsBQVVfeXFMUDNyVE1Yd2RnWXNWa0l5WW1VYXl1TE5NX0pwRG53bTdVcGowQTRkSXRjZFo3cGVTcF9oNTZHd3ZxRkdtRkQtUTQ4TFJjYlVaNk5JLTNxVTBCSmh0OWRMeGJtTmdpTXVGcHpjeWpVT3dIMG9VTC1oZGVfUE01bUlhZjBCRnRONF84aHAxTEt5V1dYTFo5X2piVERCdVRxdlFHZzBpTGNDOVU1aXEwS2NHLU8zR1ZoZnF1SGlHenJ6MEV5Q0lLcGV6emFGNDA?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-8",
+                       "title":  "At Least 39 Palestinians Killed in New Israeli Massacres Across Gaza",
+                       "description":  "At Least 39 Palestinians Killed in New Israeli Massacres Across Gaza    وطن. يغرد خارج السرب",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 30 May 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "وطن. يغرد خارج السرب",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSTlXSEJlTllkV3JEd2x3OWFObmcxaHdoMUY5MHFHcDlNaV9feWQ3RVVlSS02b1UxT3BCTjdJOVlZQVdPUVVMaUtLb0swYzV4QTd1N1phckZ2UE0wTGJTcHR2NHF1ck0xVG9xcXl2YzJVb0pzajRSQUdReXh3LXBLbURpRVV4aFdjQU1zQnJYS0IxWWVKeV9mNXdXYTRjUlJkZHpYdFRFcnFzRTJOVHfSAa4BQVVfeXFMT0k5V0hCZU5ZZFdyRHdsdzlhTm5nMWh3aDFGOTBxR3A5TWlfX3lkN0VVZUktNm9VMU9wQk43STlZWUFXT1FVTGlLS29LMGM1eEE3dTdaYXJGdlBNMExiU3B0djRxdXJNMVRvcXF5dmMyVW9Kc2o0UkFHUXl4dy1wS21EaUVVeGhXY0FNc0JyWEtCMVllSnlfZjV3V2E0Y1JSZGR6WHRURXJxc0UyTlR3?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-9",
+                       "title":  "Despite Iran, Israeli Attacks on Gaza Continue, killing Dozens",
+                       "description":  "Despite Iran, Israeli Attacks on Gaza Continue, killing Dozens    Informed Comment",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 14 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Informed Comment",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yNHFGdkVYR0dpcXJvSjc2MHNPN1QwS21BU2haTGROSlNLUzBsaEUtYU9LaEppSGROUFRhc3pGRGc0WmgwZEdiamQ4VmJnWTE1WmJPRnU3T1ZhT1ZCZ2ZUSGNiYkx3SnBQZkM2c1E5RQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-10",
+                       "title":  "Israel attacks last fully functional hospital in Gaza City",
+                       "description":  "Israel attacks last fully functional hospital in Gaza City    World Socialist Web Site",
+                       "locationName":  "Gaza City",
+                       "coords":  [
+                                      31.5017,
+                                      34.4668
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sun, 13 Apr 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "World Socialist Web Site",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VNnRoZC1LTFZfdXZ5SmZ5QzZRcklWbFJzZlNIbW5paUZsR0MxTWhGeDRmcHlZRDQ1eVZIaDlsa2djQ1J2TjQxR1FSUzhLeWNkT0ZTcTZfNE5uZ2JoTkE1R3E0WHZFOFJW?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-11",
+                       "title":  "Mapping the conflict in Israel and Gaza",
+                       "description":  "Mapping the conflict in Israel and Gaza    Reuters",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 09 Oct 2023 18:58:02 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Reuters",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVYzNrdS1MWmRkaHFaZ2RUZWhINkxUTmwyZFZCbkZ0SlRicUNJMzU2WEpoVlRUekUzajBCNzRWZU5sbVdta281WmFiRFVEZFRsZ2dVejNMS0ZzQUcwTm5XUS1FZjJ4TnQzd1RINEZ2em1QbEJHWnplRElR?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-12",
+                       "title":  "Israeli army shells east of Gaza Strip, detonates buildings despite ceasefire",
+                       "description":  "Israeli army shells east of Gaza Strip, detonates buildings despite ceasefire    Middle East Monitor",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  2,
+                       "confidence":  3,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 30 Nov 2025 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Middle East Monitor",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNU4wa3lvWWc3TU9QcUJYX0pwT1ZwU3RjQXI5TFViNXpwNm8tcFRzVE11aXdNUjdzajZSejdUam04NzZ5by1zMk9XYmZYZG5BWF94dFFSUFpSRXhfQW9meHgyaklReEkyWXJOQkhlSThYZG95d01ZSEhZcEp4MUMtMFNOWGdWdEFMUVJxRlVCanNMc2hTVGtKYWZmTU02UVhfWEd0ODFzYWdVOWdrOVZDcDVqTW1UMklIWDR6V9IBwgFBVV95cUxPSW1XX2wzU20wZFhxUzdtRDNoVEVEeF9lcVQ3QU54LUpfcGZEbWJYTnFORlM1alRJQVY3UGpMb19Ya3dsWmRQQWRnUzlWV21qQzB1Z0lIaDg1T21KSHFhUG9QMDlzZlhoQ0lVV0dwNExGNjhiYzY4TGczcFRHQ3U0YmtBSEtmRFdzTkducmloWG5VMHJXdzZ3V0RqRmpLbG4wczM0eFBka2RIa1RUWlp5R193LW1BRVYyWEN4NzNwYWJnZw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-13",
+                       "title":  "Israeli attacks kill 48 across Gaza as military escalates Gaza City assault",
+                       "description":  "Israeli attacks kill 48 across Gaza as military escalates Gaza City assault    Al Jazeera",
+                       "locationName":  "Gaza City",
+                       "coords":  [
+                                      31.5017,
+                                      34.4668
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Thu, 21 Aug 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMjBMSHFUQk1wRTI5Rjh3YXFkVFItQXliSDJwMzlTYWRKblh1bkZBdlE0LVJDZldlbGhFRzB6RFBYWFItck43d25FeWwxYlpuYU1ES1NPRkFWT09FLTZtOEtZUmNSOFNoODBoTjJnY3FNVU92VEwwdnJpdlpZakJ2eXl5RjJJY0NmOHlfR0MxbTE1aHMwV1dhNjRfcUpHUmhkb1g0RUdtZ2N1bkx2SVZKYWZMNzA2aVHSAbwBQVVfeXFMTmdaRy1jcEJPcGJCNXhtQmlvU19PbXdoSVg5elVjY2xiSnlmd2FRTEhPQnU5ZU5yV2NTNWtfcGVWZGZLNEE3LUZPTnFkd0RudkVMLW5JTmdjV0pUZmg0MkVDOHBVX1NtNk05SnhFRFJ5MlZ4SUdPUTJKZ3QxckMtVjJJOXhhMERfQjVJZlVlcFZQcWJGTEhNRFVTdHFyTWhFVC11T3k0MmtpSDdpaF9KWWo2azdMSi1QYm1NSF8?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-14",
+                       "title":  "No let-up in Israel\u0027s Gaza attacks as 33 killed on Eid day",
+                       "description":  "No let-up in Israel\u0027s Gaza attacks as 33 killed on Eid day    Anadolu Ajansı",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 06 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Anadolu Ajansı",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaE9PaVc2YWxRU0d6ZkNVRm1XaUJiUWNTMnl2bkgwbnlSR1NEdWVleXJSS25TX1NQSnZOYnBsMEwzakctR25sbGxnY2h1Ym90YV9HVGlCb2I2T1ZEWVpfck5LMFpuNUlvQVlaSGdjX3ZPLTB6NXA1R0JwLWVnR2NRWlVEcTZIMUo1elhjdWZmMmhlYmlDZnpPX09HdlNQUnZseEJ4TQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-15",
+                       "title":  "At least 65 killed in Gaza attacks as Israel sends tanks into Deir el-Balah",
+                       "description":  "At least 65 killed in Gaza attacks as Israel sends tanks into Deir el-Balah    Al Jazeera",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 21 Jul 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTVdFZzFGMDB3UzhZY212WGd1SVdPdXVYWkg2SmFZeGZxd3VmOFpKSEZWdjVodnY4SXVHSnVjaGtselBlT1JUWks2dTdWdnYtNGlhbUg3M0puVXZ5RVNrVmMxNVY1T1RxMEhuZldfS1IzYVJQdnpadjFpM05nSTJrbVpSLUZlUDhlQmNDMUFHcEMyazdPeUpYcTlmUVV0SlpwTVF3YXlYUVJGLXZuS3pUY19NT2txQW_SAbwBQVVfeXFMTlh6RWxLMGRTQnNXY2FxM3ZRRVpQYVphSHFnLTdJYnBmaXJ4RWFWREpidWlKSFRZLXUzdVNEWTZWZy00NGxVRkxNSTNISHZ4TEhWRkh5T3dDQmgyZmppRnJZa3RIR1NoQzdwc2tTdmwtMmc5eWxHNEtZLXFIRzUzZVE3bzltX2xUUHh5WElwc01rVHBzR1BEYk54SFhxMmtGN001c0lvN1dzRXlUZHVnQzZlRFB5Y1BUUU8tbFo?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-16",
+                       "title":  "Aid worker among dozens killed in Israeli attacks across Gaza",
+                       "description":  "Aid worker among dozens killed in Israeli attacks across Gaza    Al Jazeera",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 19 Mar 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUZIWHU0WVR6aTFWOU02M0hvZjQyMzNFdjUtRWxGN0FJbERCN3ZUYjVCXzFSc25tMVVmSnd4eWkzS3FZcXpFUUgzZm53MFMxSUZzQS1DMGVqbDB5cjk1ejd5REJfUlZEM2k4VG5XeHo2Zm9DOTRxTXc0QVN5NkI2TEVUbGprck5sM3lRM3dLV2FOMjFSRlB6OXNWSdIBoAFBVV95cUxQYW9KM2wyeTBNYTVxSWZoUUliU2J5VWlSTHA0MGtVVkpoQnZ1MWNNRE16cUFNc3RYT1RId2ZoemNZeXhHbkZhUWR6UTlGb0VDY1ZWSTZzdG9ORFgxeU1qbE5FOWFzckJ6U29sYWM5RnZmd3A3Qi12LVg1Qk15Y09zQXdtTzBZS0RyMWVkNFhxSHA2d0xPNnpVMXpaNGhTNkQ0?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-17",
+                       "title":  "Israeli strikes on Gaza are relentless as displaced endure flooded camps",
+                       "description":  "Israeli strikes on Gaza are relentless as displaced endure flooded camps    Al Jazeera",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 30 Dec 2025 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMitAFBVV95cUxORlQ4VTdkQVpsUXEzclY5YS0yckhDTTk2TmR5THlzMlBDb1RJMm1RRzBvdVYwNjY1U1Vza2R6Rzd2MXJpX1lZVklyU0FVOXRSWUt3NU1mXzRsM1U2UHp0NloxVzNkUHhwTDdzQWRKSWJVUjdYdzMwcFU4dFVqcjg2VzNKVXdBVndmV21zamd6OF83UVhSR1VLT0QwblVQTmpiTXBTdTM1d0g3WnlUMGdCZ245OHnSAboBQVVfeXFMTXE2N2haV0lOeHp5U1AzVXRxTmRIa2RUSXNPUk4tY3UtWGxRblRTRUowOXJxUVNCRFoxQWFJUjF6T2VGTk9XTlhjNVJ3VlBieUpYWEI5VGlkNTBCZ2UzV0tSQ19OMnNRVXFEV1REZEROMXhzb0diU0hEU19mUGpsQXlZTVgzQlVsTGo5cU45Mmo4MHcxa2kzNmYwQXhhdnd6aDdVMjFCLVIyV0daY01kTTRxZUdMV3lDdHhR?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-18",
+                       "title":  "Israel resumes its war on us, the people of Gaza",
+                       "description":  "Israel resumes its war on us, the people of Gaza    Al Jazeera",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 18 Mar 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeEFaWEFMYy1wdERCdGtxa3AwRUJwSnM0anVEdDNod0VfY3RER1pKTXBMWGZ3SV9HSkM2VnBDNld3b2IyeHp1STlCQ2NIX3Jrd045V2xGUW1PVjNvc0dwNGo3V3Nwb1Bwb2xsd2ZabHk1WlRBb2VXbUJaTlM0OC04RGJBYjVLcElSaThCOUUzSWtZd9IBlwFBVV95cUxNaWREX2xyOUs0UzR4M3YxNGlfc2xTc014WlV4bjJVbzlBOUJ4YUZrbUEtQ2ptcS1iU0tMNG9Mb2lNaHg0NHBySWExZTdyNkRhOTFVX0dhVTduOXZZRHRKdWtYSmt6bUhXd0tYMHBoZXlWSENKZ0FEa3ZwZGhiY2NTUWRoOVpBZ2NlVHlXOVZXejl0Z2tTQnQw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-19",
+                       "title":  "“Hopeless, Starving, and Besieged”: Israel’s Forced Displacement of Palestinians in Gaza | HRW",
+                       "description":  "“Hopeless, Starving, and Besieged”: Israel’s Forced Displacement of Palestinians in Gaza | HRW    Human Rights Watch",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Thu, 14 Nov 2024 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Human Rights Watch",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNblVUck5hRFhIYUcxczkwTklMY0hLUUE3TXpKeTdOeC1KeEFNd0hnOGVhQ3F2bE13ekZiZlBkM2o5bmxsbXJXNmt4WFFzN3F4aEdZQ2NLX0hJbV93WWJ4Z3hkSFY2aWpOR29pcU5RRTJzbnhMc0ZLMTFBOFpHaVY4TVg2b2taV2k5V25qUFQzMjZhZFV0WDR4eFZ6dGs4SzA4Ykl6WC1PTmtleGs0M1JKeUVSRWc?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-20",
+                       "title":  "Israeli military kills 23 Palestinians near aid site in Gaza, witnesses and medics say",
+                       "description":  "Israeli military kills 23 Palestinians near aid site in Gaza, witnesses and medics say    BBC",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  3,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 20 Jun 2025 07:00:00 GMT",
+                       "category":  "Military",
+                       "sourceLabel":  "BBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VVDlPOEJLZ3FnNUZtS2Y4dnhJSXNBOVNBbGJCOFdHV3QwVVFaMmZxS0J3QTJ1cEYwcmpxYVloVkoxRGkwUWVJTlowRkVKSjQ3SmtKaUQySEZKZw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-21",
+                       "title":  "Hamas leaders attend Egypt talks as Israeli attacks push deeper into Gaza",
+                       "description":  "Hamas leaders attend Egypt talks as Israeli attacks push deeper into Gaza    The Guardian",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 29 Dec 2023 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The Guardian",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVV6aHF1M1BpZlRNMzVQbk9BNWJtcTFObjBsU2JfT1ZjbnJiOU01b3lRcXpWMEpJbXA4YlNSNkV0RzR6aV9ERkRxZkZXTldwbkNOeUI4TTJBYVlLQmx4MEw1Ung0THRaOTFtU3hEWWtyZHUxOWU5dnFuUXFaenVrempraEJTbGFWQW9IYm80TjFRc3p2YWpnNFB3RFhZM213VHRwZFlDM3pQRWZ1NUFpMEYwVTBkVDdlV0ZF?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-22",
+                       "title":  "Gaza City residents return as Israel says ceasefire has started",
+                       "description":  "Gaza City residents return as Israel says ceasefire has started    Al Jazeera",
+                       "locationName":  "Gaza City",
+                       "coords":  [
+                                      31.5017,
+                                      34.4668
+                                  ],
+                       "severity":  2,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Fri, 10 Oct 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMitgFBVV95cUxONmFPbloySi1vTHpvSzVTMXJQdUY1dVo0YmFmZkdJdjE4VUEwWUFVNWF6M2lCTE52SXdnVlFoNlpDdjBFRUxIOGYzNEVYNG5KSXpiV0UwV3ZlZTNnalpjNHB3RXItcmt3VldBZGZ1aG1PQTlIbWE5R2pFbnIyMktBTEs1dVFkR0poWndjQ0dGVVNHVVJJM2ZDamotcHNKT2Nha0dTanNBUHp4Sk5qZWtwSHJocjdId9IBuwFBVV95cUxOWEo0RWJSRV91ekZTRmNsM2tVMXd2UDYxU2k3OGNhMzFoaWtYTTJlcVV1TXo4N0RPbjF0ZS1RbnNWXzR4djVjT2FBSEJOTjFzN1BrQ0pxb0ZreG9PdHZaZVRZMERuVVhZOXlOMTdHVmUwZlFQSHJhSmc1UUg1eXJ5S3I0XzJ2NTBfYW52bFFJUW8tdTdaOUc3cjBabTVrUlMyVXBOTFNCMkZsaXNoWmFiblc1VEJnSTB0bnJn?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-23",
+                       "title":  "LIVE BLOG: Scores Killed, Wounded in Gaza as Israel Carries Out Massacre in Zaytoun — Day 775",
+                       "description":  "LIVE BLOG: Scores Killed, Wounded in Gaza as Israel Carries Out Massacre in Zaytoun — Day 775    Palestine Chronicle",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 19 Nov 2025 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Palestine Chronicle",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeEdSX1ZrWGdrZkhhZUVKVEdYcUhScTVzb1d5dFZkbDZTU01vM0hadHBESnFuREIwemRtbGZ0MEV2ZW0xSzc4ektTdnVSSHlHcC1kWHItZWszalpqbmkyQ2hRbFVkeW9pR3l0eGNNTjgwdzkyUC1zdDZxQjJjNjM1cHRhVFhDTk9mZUFtZWRjaE1JTENlQ2p6Q21CdTBTRGdncUJncV9nRW1mRmJSdmQ3NWpmNU5VbjBtODNZUGc5UUdEbHd3Mkpv?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-24",
+                       "title":  "‘Difficult Security Incident’ in Khan Yunis as Death Toll Mounts across Gaza",
+                       "description":  "‘Difficult Security Incident’ in Khan Yunis as Death Toll Mounts across Gaza    Palestine Chronicle",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 27 Jun 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Palestine Chronicle",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWlBYMTZaV0w5cDVVbncwQlhOTzd3Y1U1TzNFd3FqWXVPZXBadEJ1blVYVW1PRUE2b2J1Y1RhWDNLVWJkaGQ4aGtuRWVqalZrbTd2VE50UFpFM1lYZ2g5S2xHeXQ0V1AzcXo5eWx1bTNNNzVkSV80VWlMYkRXTmZCTVBYd1hsaVhEV0haa3NtNHI0UVljQlhRU1BQQllESTg1RS1HN0xIOUk5RVZpSHNF?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-25",
+                       "title":  "LIVE BLOG: Hamas Video Details Khan Yunis Attack, Adding to Israel\u0027s Gaza and Iran Woes - Day 627",
+                       "description":  "LIVE BLOG: Hamas Video Details Khan Yunis Attack, Adding to Israel\u0027s Gaza and Iran Woes - Day 627    Palestine Chronicle",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 25 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Palestine Chronicle",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2FCRUN4Q0pacFZiSmsyZi16U0tKMUhDWDROVkIzRktxQjJHeHlXbjFvNjVsdm16a1JFTHFfMWRHYUtISG5RODJ5U0QyOHlzRm45aTVWZzlNOWdMQl9CdVZfRlBQSzh3Rjl5VVZSVTExNHZpeXJ3UFRvd0plY214T1M1U3BFOFpvekd0M0lHR2hMUVFuREU3cEt4LU9BdVN4b0ZDSEhfVS1IR1dOR2MwVng3Z0xaak15ZXdOeTJybGpZRW5JcElETjZpUEI3QkNxX01hVEdlQ3FDUi1VQUJF?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-26",
+                       "title":  "76 Palestinians killed since dawn amid nonstop Israeli bombardment and airstrikes across Gaza",
+                       "description":  "76 Palestinians killed since dawn amid nonstop Israeli bombardment and airstrikes across Gaza    WAFA Agency",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 30 Aug 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "WAFA Agency",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81SlNmc091eTF4LWVYZzZGQ2dBX0ZmeV9rZ1hrSnYtWVdON3QycDctd0VhSGVrYmExbS1DUW1FSWI0VmYzSkN5aGVOTTlSUmVFWE5pakFjWQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-27",
+                       "title":  "LIVE BLOG: Widespread Famine Grips Gaza as Israeli Massacres and Targeting of Aid Seekers Persist - Day 653",
+                       "description":  "LIVE BLOG: Widespread Famine Grips Gaza as Israeli Massacres and Targeting of Aid Seekers Persist - Day 653    Palestine Chronicle",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  2,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 21 Jul 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Palestine Chronicle",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSkp2X3pGNFZVTThsXzludG81UmtEMUJzeGZ5bllvS3ZUbjJZRUMtUDRjSHRfRVBEYVZreWZTNldiaHZnMWNUcjZxSU9yemt6YTZfS09BV0prVVpON29zdEVuUFNUYUpyV2sxOF9OcHJxNjBtX2hvRUF0aGtianRGR25WOGRLbG5VeHlIUUlGdi1iYmYybzdPb1V4ZUVGbUdRNFNPVGo1eWdjY21rdjFqYmVINmNVUTRxOW1oaVRuRTVma1V0UGdMYUdQYWlvSFFsTk1PQUt5dw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-28",
+                       "title":  "Live updates: What\u0027s happening in the Israel-Hamas war as Israel intensifies strikes on Gaza",
+                       "description":  "Live updates: What\u0027s happening in the Israel-Hamas war as Israel intensifies strikes on Gaza    PBS",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 29 Oct 2023 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "PBS",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdlY1WFNDZDVqeHVmRzR2WUU0RDhCMkE3eFB2ZmpWaUdiTG1UMDB0b0h5MGhqaHR1YzVJMUZYNWpaOGJrck1RMHpHc2JMVmFIelNLS0NOYmZCOFMxOWxmajkzQ1pYMEdjaUlCdXp4cXBJVDkzclEtTG8wTWl3ZlFGcDV4NG9OOEszRE81NS1Qc3pGN2drNDV0eHprNmNaaGpHNVBXQWg2Vks3YXlYQjV5NVU5SWZHWjI2dHZsc1dXaXVkR2_SAcgBQVVfeXFMUFFFWmNNdk1WVzI5N19tQkEyQ0w1QXluRWM2cFdXWUQwUnlsTW81TEptaFBwTWhtR2sxNlFpdkNWejZ2S0YyVTFNaWxJRUlBOUxGSkJFcHRkWFFHMDh2Z005dW1uNFBqcFZfc3VWWVY2WVNBUmhlb1Z3ZnBzV3lFeDQ4akhSbnJzYkxqOWZ2bUNfcnNFYkZVc04wUVFEa2RRVkIzN2dQLXBONlBEYkZPZFBsQm5FUmhWV2swbV83R0ZvR0o4b1FzMzM?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-29",
+                       "title":  "LIVE BLOG: Hundreds Killed, Wounded in Gaza as Israel Resumes Attacks – Day 754",
+                       "description":  "LIVE BLOG: Hundreds Killed, Wounded in Gaza as Israel Resumes Attacks – Day 754    Palestine Chronicle",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 28 Oct 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Palestine Chronicle",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWWE3TjBKUnE0QW5CMWJCN0xUUVZkalNNYjFTQ3p6bkdWck8zRlotLWZRNk4xa2xidVZiOGZXM1pTai12SXdCeHFINDRzN1hodDQzTDZtMHVEalN3Ry1nVWpGSXhLaGFWdXAyTDR4RHAzLXRfa05Pcjh3UWtZcHNLcmR5cG11T3JwN2cyLXZfQmh6Qzc4ZU9xNEQ2UHFLbkxscERndTgtYTRFdVczZVJlOWxibw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-gaza-rss-30",
+                       "title":  "A Gaza journalist’s agonizing search for safety",
+                       "description":  "A Gaza journalist’s agonizing search for safety    +972 Magazine",
+                       "locationName":  "Gaza Strip",
+                       "coords":  [
+                                      31.3547,
+                                      34.3088
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 04 Jun 2024 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "+972 Magazine",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiakFVX3lxTFBScXFxc2hqRGprTG93a1p1VTR2RnBnNnkzMGlDc3hwVlluWmthZEtORlprWW1WaUltNEc5RHJva3VxNnJ4YVZuak1KQmRsenFZQ3FZQ1d6UU5iUVBFOVBBUjFfMy1zcTdiZFE?oc=5",
+                       "sourceType":  "google-news-rss"
+                   }
+               ]
+}

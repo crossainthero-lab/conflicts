@@ -1,0 +1,550 @@
+﻿{
+    "conflictId":  "israel-iran-usa",
+    "sourceLabel":  "Google News RSS via localhost mapper",
+    "status":  "live",
+    "refreshIntervalSeconds":  600,
+    "lastFetchedAt":  "2026-04-20T01:56:47.6839452+10:00",
+    "message":  "Live events were refreshed from Google News RSS and mapped onto conflict-specific locations.",
+    "events":  [
+                   {
+                       "id":  "israel-iran-usa-rss-1",
+                       "title":  "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle",
+                       "description":  "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle    The New York Times",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 15 Apr 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The New York Times",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-2",
+                       "title":  "What We Know About Drone Use in the Iran War",
+                       "description":  "What We Know About Drone Use in the Iran War    Carnegie Endowment for International Peace",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 02 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Carnegie Endowment for International Peace",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzBjN3VoSVY1OHBLc3laYnM5SU92b2draWFOY1VvNEZBWFNvVUN5X3hsUVJJdktkaXFReXdyM051UVY1bk5uM3drVDZHMDVjUHpKR1o2UGRyTDJ2QWk1R1FIbVFZN1BZSjYyMW5XMWJ0WDFKckhWLWlxNTBtN0d2NUJB?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-3",
+                       "title":  "What we know on day three of US-Israeli attacks on Iran",
+                       "description":  "What we know on day three of US-Israeli attacks on Iran    Al Jazeera",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 02 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWTJWbzRJOHZBMEkxdjZ4ZXFOWVZDYm9scjhGVjZqMWI4QTRPXzhOZVZfbDRYSzhGbUhWYkZXSHBqc0lFUTRKOE50akJhRjlsVWE1aWk2Q2RuNW1jblFkbkFlT3RJczNLeW1EQmxKRXpxQWEyaTNjYzZSSlh5Z3FILWZGVmFiNjdPcmtpeWtLcDdmMDVxNS04Mjhyb9IBoAFBVV95cUxQS1o4Ql9VMUFHSjBFN3RyNGVlaFhjeVpnbHpJMG9ENmRMOWMxbkRJYVJ5TU94NEljemJNQ3RXUDlOdVg1c1RRWWVXMUdaU2VtR19sLWl2YjZkeWRVNHFaSG1hcDR5eHBUTlRtMllWSHZoenVtWlRqLUs1bnotczM1Q0dhMnZYTV9TelcxdkJ3ZExDNE8xa1hOTmZQZmJ5V2tK?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-4",
+                       "title":  "Bahrain strikes raise questions on how US can deal with Iran retaliation",
+                       "description":  "Bahrain strikes raise questions on how US can deal with Iran retaliation    BBC",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 28 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "BBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Bc2tfVlExM2RtQy01LUNmS196a19WSzNmUDhVbGNrN3k4Yk1QdERNOEdSM29SRkJZRjdyOE9aZ2tKcklERy12a1RvbHhPVGxuOGYyTlJjR253dw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-5",
+                       "title":  "Live Updates: U.S.-Israel conflict with Iran widens",
+                       "description":  "Live Updates: U.S.-Israel conflict with Iran widens    PBS",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 02 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "PBS",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTnpCUDFBQmgxMU50YW1tOWx4cTJ4YnFCM2g1d1FaUjJBYlpqUlZHWFZYbEViYTE3Z28wdHhLb1hvN1B5RGNhanNQZlRxczVxcFNvei1pX1Y2REd0bjR6cGplN2JKdnhzS0FBLTBDUl9UQThDN09iT0hBRzVhMGpWeVY1ZHFOcWtsSExvWNIBkgFBVV95cUxQM0VmMFAzYW03Y0ZkeW54Y183WHFNekl6M1lEeXlGWEE0bXFHZHVXU20xZG9NelVQR002NUFIV21CNE96WnFGd05qdTJhNG42SVlocWtsYU1fMEJWQzFsb21PTWx3eENiek9RMHloSDVHVlJkVzFubkw2S0JNNTU2NnZNS0FOekxVX0hyd3ZjNE9pUQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-6",
+                       "title":  "Iran targets US military bases in the Middle East with retaliatory strikes",
+                       "description":  "Iran targets US military bases in the Middle East with retaliatory strikes    France 24",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 28 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "France 24",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMizAFBVV95cUxONUxIak81ZUF2RktDN25uNVpNLU8zN0xXemtSQ1dLemhQS1VWYTRxOENBbGNsVTBBMGI1SEpOVms5VVk4cmlnaUg1QlZ2N0YxMEMzM3YtMi1LS080NWczeHZ4YV9nN1RXdHM1T0tLVWEtSl9IRXAta3lsNExmemVoeXN1TWxDOUJfOGtseGhyLXpLZ2FWbGRmLUE2aHRpMGVXSF95YVZhVk84M0kteVdURTlNTTdIbzhrLUg3ejFmZ3R6YUpDa0RCaHhtd20?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-7",
+                       "title":  "Iran expands retaliation for US-Israel campaign across Arab states (February 28–March 2)",
+                       "description":  "Iran expands retaliation for US-Israel campaign across Arab states (February 28–March 2)    Long War Journal",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 02 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Long War Journal",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNckp6YmJ0OHEtRzdrRkVRUjJyZlNJRnNBZjhRdXdIMFp3T3VmTG4yRW1LdU1XM0lLTmpndzVIaGtMM2hrVW5fTnNKYTNFTGZDOTJqQzUzVUlHcHNrUU9RUzdob1h1a1pCYmZaRkttQ3NfSVpzNnQxVy1uaVZ6bGE5TklabmRwd2k1UkYtQWQzY1RTYTZLV0xsRHhmcW9sR3h4SExoQkc2Q2NrU0dlenNXLXF1dGJLMFVnaVhrdVVZVnBScndmejAtaDF2VFpoYVBpenRXZg?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-8",
+                       "title":  "Trump defends war with Iran as conflict widens, military names first service members who were killed",
+                       "description":  "Trump defends war with Iran as conflict widens, military names first service members who were killed    CBS News",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 04 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "CBS News",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirwFBVV95cUxORU9wTEJpYXFNemt0d2wzUEhudnZBVXRGMGpHeUxRT1c2QWd2NjA2ZU1GR0VTZndFbi1heURJLXpHLVViOWJEdVVTY2NoT0t0LXI1NkZ2azVOMmNZaElWNXhldFdsR0pvMDk1SGI0MlRHRmxDdHNOcXZ4bElmVFF2RGd5OWFSMldacVdYekpvTHJsUlhzVFUtQ0RTTF9yYlVEdEZEUXFUaGRDRjZEUTVn0gG0AUFVX3lxTE5sNktYM1B4dXJEQWZTcTc5dGdNZ0FLZEJoUHlFcWE1SmNOLU92WVVWaXNxTnlDb3R6aDlGdHhtVzl2UlI5SkllTll0ZlcyenVUY1FpdVBIUXJuT0pwbXlIejFROXFhYUpBQXoxMU9DNjcxSDhZeEV5NTFJR0NRVHlaRzk4S05pUDZjckxKQmRELUlpVnRzYlMtMzZhT1d2dF8yOG5Bd3l0LUpQeDBZNE14TVA4Tg?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-9",
+                       "title":  "Mapping US and Israeli attacks on Iran and Tehran’s retaliatory strikes",
+                       "description":  "Mapping US and Israeli attacks on Iran and Tehran’s retaliatory strikes    Al Jazeera",
+                       "locationName":  "Tehran, Iran",
+                       "coords":  [
+                                      35.6892,
+                                      51.389
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sat, 28 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOHhGMGV6SkFRYTdWejBscGpMaUJlOFdnZDZqWWtSaF9YOUtUZEN2bTNvdVRZUUdFLXJtekNMSmFrX2ZFUVBvclRwai1kSkdSZmgzMzNMM2NLXzhDLURKV1ZzOC1TWkpHb1l4b2FnQjMtYzJWN1NJU3FETXhfcHpfODVRbWp3LUNMbWZPMjZ0X1Fia3VVWEU4S0QtdTFrTktQVUNSMzhEWktXNFBQQWF3NtIBtgFBVV95cUxNaU5PNG40M0ZTdFNOZF84Q0Jkc0E0Yzc5X1g2Vl9qb1c2Y2xmZzhEZnBnemY0WW5rWjJ0RnFzbWNjQUs1M0dqOVVua2RkbF9FNGZjajlxQUhwQTZWd0t1NmY2dHREMzVUYlZTaXFPWWdxLS1wQmw2MnQ1MXFTbmxnNTR3Z3VMYXNaQmEzUVNXS1FqRTNVaW1nWlo2Z01Tdi1Yd015UUstTzZqbEt2bGNvSzBHTS0yZw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-10",
+                       "title":  "Israel Attacks Beirut and Tehran as Fighting in Middle East Accelerates",
+                       "description":  "Israel Attacks Beirut and Tehran as Fighting in Middle East Accelerates    The New York Times",
+                       "locationName":  "Tehran, Iran",
+                       "coords":  [
+                                      35.6892,
+                                      51.389
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Thu, 05 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The New York Times",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFV0dCRnY4b3ZDNHhGdW5uN1pVUzN4bC10c3NNaGV4VTJlWUMtRVdNcmpKdXFXR25pb2dLN1phMV82bFRjMlMzSGs5bUozZ0ZVb1BUNDZ4ZFptN05mNHlWcW1XT0Zhc05fZVdiVmZGek4wc212cWc?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-11",
+                       "title":  "NATO shoots down Iranian missile en route towards Turkish airspace",
+                       "description":  "NATO shoots down Iranian missile en route towards Turkish airspace    France 24",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 04 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "France 24",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOHRZS0tSbjFHY1lRcHg1d1BEQ3o0cDJ2RWk0RHNrT1l5a1NsMG5FVFBZVHp5d1dpUDdBQ0JTbHdmZXlIRG80MFlsNzJKTGFGekR1ZF9JVVNCWVlZQzVyMHdHTHN5WnpVaGtDN00tNUthdllsTE92bEFvaGYtbHVFcTN1MkIyd1pqZmdJYnQ5ZTdPUGxxOUw1T0xKaV9fTk9RRUhoLUstT2hqYnlwR1Z3?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-12",
+                       "title":  "Iran\u0027s Shahed drone: How \u0027the poor man’s cruise missile’ is shaping Tehran’s retaliation",
+                       "description":  "Iran\u0027s Shahed drone: How \u0027the poor man’s cruise missile’ is shaping Tehran’s retaliation    CNBC",
+                       "locationName":  "Tehran, Iran",
+                       "coords":  [
+                                      35.6892,
+                                      51.389
+                                  ],
+                       "severity":  5,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Thu, 05 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "CNBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdmN0dmFSVm1ENGJGRjVjM3dSbkJ2endPclRQTGVNS2dNN1ZyUFBvcFFZbVROWnVoQzh1OVM4ZVo1d3oyVVNSU29tTldOZkRyejRIbVB3cExtakVVSjkwREo5V1duM1FXQm5RZWkzeXJmRU5UYk14UEgwNGtlVVg3dlJkTXVPMS1zVlRGWlZJMFZwRjRyOVJaNmJoWEM0SW9vc1lhYkc0M0MwYzBWcUJyanJJVjBJcWxFZHd1ZVlVMkXSAcYBQVVfeXFMTkxLWjhSSllHbFFPTXhkQTFmaE5wVzRseVdkMFB3eklJOTNTaVJyNGViUFRGOFp4Vm53N2xMSDQ0N1pydmdjaDlLTXhzeTVyajRPdFJXb3NGbm1jMVpoNm5IcEhZNlRrUFBhTnF1WlJZdGFVX1N1NUFpNk9jM21rZkdFSi1Qb3FUZkVtVlk5ZTdyN094MFNYa3B4WXJkUWl0TE5PR2xCSWtKZzFNNFpFX2xrU0ZVa1FUcExBXzFLcVZ5NzhYaUd3?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-13",
+                       "title":  "Could the US run low on weapons for its assault on Iran?",
+                       "description":  "Could the US run low on weapons for its assault on Iran?    Al Jazeera",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 03 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaWdVZmZGRERDcExMYWo5ekFFRlNqLUFnOXp5RF9GYkU3dENHX0xvOU5CUGZqVDZJUl9DTnZYRGp4RW1UcWdocnh0ZTZMamE4VWlUQkQ2cDVLMGFnQlNDM2xpN1VWNW1fQndRVmI0VjJJTVBoa3RNVVVTSko1V1ZlaV9aTlptd0lpZ3dZY1dCZWhsYjdSbGc2S3FEc9IBoAFBVV95cUxPQ1ZqTnAzald5MFNiUDFPeXhBcTMzMEJaejNFTFNZSlItOVZsdUhoMHNLNTNOVjd3VXpHcklzY2xkNEVJcVk1VXNKcnRIRm0xdzZhOGZZRmhLUTRpRW15eE96Vmc4Vk9YQ1lWaFYyRk5kaDkxTElFWGlselZ1cVZoRzJqai1vMkhpV243N0xnQ3JVOV9SWVBqTmljVmRYYm1i?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-14",
+                       "title":  "Daily Iranian Drone Barrage Raises Pressure on Gulf States",
+                       "description":  "Daily Iranian Drone Barrage Raises Pressure on Gulf States    The New York Times",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 06 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The New York Times",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa1RDUHk3cVZlMU5aeE1GZGdoQ05vc3djWkNROW9lRjQ5TmxMNVBTSTAxNWxzNzFaQ1l5d1UyeU93QnpNY0RPU0ZNeWNtcGNnNXN2RlZ4OGtkYjBYNXhBYjZ1U0VMb0wyRzNqMmw1eFh3NnBoRzRIaHFnT2ZZS0VWTjdyT3lSQ0FydlVEZWZLZkd6NkNwRmh5Zw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-15",
+                       "title":  "Iran war: What is happening on day 15 of US-Israel attacks?",
+                       "description":  "Iran war: What is happening on day 15 of US-Israel attacks?    Al Jazeera",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 14 Mar 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQempZYXZOZXBHVzRTMENFaF9ZTUJwaG44NHU4anE0TUh0UW5IaS1nMDNmTmNaZUdsX0VZT3ZHS05tNjBQYi1GR2JCeDlGbGU5QzQtSnY3MEFNcmVfRzR1djZteTBpNmd6SHo0d0lRN2ljRDhLSGZfZXRETHNLLUpSTDZZNGEwbUZ2NndkNUFzcmxCdDlMWmtKbFRBQTRtMGvSAaQBQVVfeXFMTkNTemktVnR6SkF6LTFXTGEyWTlaWTN2clRXakVEWmlvay1KUHVOcGU2M0x3bFRqSVNsNHVxV1J4TXFCcGNuN2tKeWI3U253aEpYRVktV3EtOGF1cXhyUFdHVnNlTmpadFdaLXcyOGZkOUtRZU9VM0NHaW9WMGpmQ3dUSmZhUG5RMzBWbjJqSjZuNVVYX3R4MUdXemluS2tUX0JqUFY?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-16",
+                       "title":  "U.S. and Allies Encounter Iran’s Arsenal of Drones",
+                       "description":  "U.S. and Allies Encounter Iran’s Arsenal of Drones    The New York Times",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 03 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The New York Times",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMidEFVX3lxTE53NzJTUXJKUFRqMGlkQ09Ha2o4TTRJYjR5bXZnbU9DSUlrNk5oVVR0Wk1UOTFzN2xYQnE1MmN5Q2cxTFZkQld6U29SQ3I5M2RqNnIydWx3SHViYmV1anNtdkdDc3hUeEpKWnQ4QzlmdWN1QkNa?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-17",
+                       "title":  "Iran war: What is happening on day 14 of US-Israel attacks?",
+                       "description":  "Iran war: What is happening on day 14 of US-Israel attacks?    Al Jazeera",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 13 Mar 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcTg1a3dRMDlhVU9OQlE3R3VGdW0wZTllRHpicUMxOG9GLWpRdzFlZXZXSFJoN3V6azVMUUg3OVlPVmkwVU9JcV90UzVKU3pLY29ST1NmTmdtYW1QeVI3M25ZQ3hfWVd5anJDTDRwRTR4a2lwWWhjem5rdmY0SjQ4YllubngxN3pPTkhlSlhnVm16azVVa3VudkVGQlNqcDTSAaQBQVVfeXFMTUtfbmwyX0oxTWxwR3ZoSzB3MDl1eTQzNDVzMUhpekVCc244QmhZbXlyRHFiS0pmd0tZVVhaUnpsUkoyYVJmZldhRG1LX1pqQUx4QU5NM25ocFJldS1ERnk4b01ybmxnXzFJYXRFZ1poNEhRNnA1bUZSTXhQQVgzMzE3U3ZaYjJwLVU4bEt2VHVTWngwN3lXU2JuSS1QT3VUOUJaOUU?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-18",
+                       "title":  "Map shows how 38 days of attacks have evolved in US-Israel war on Iran",
+                       "description":  "Map shows how 38 days of attacks have evolved in US-Israel war on Iran    Al Jazeera",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 16 Mar 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZW5IN1czWERXZTdQQUxNRURyRXFBQkhfR0pWZ0MzMjhJaFFsc0pyRGdDNm5RMk5YVzRwX1J5YzdvQVNQb3ZJaVhjYzNZaFFaWGVnZ28zRGg5OHBkZ1d1YkhkOW5hcTFXdFloZ21UZjVLQUJrRG43ZXpFYnhIQTVUNVZmRjFWQ1ItTHRJU3Qxb3NaUWhGdjFFUjJHVXB0MDBRSloxZGduMkZLYVNFVjFsZNIBtgFBVV95cUxQMVA4UDZKdE5oS2VZZ1N0QXJUSjh2NHB6RVhoa08wcjVCSFB0aDl6bDJuSHNhZTlGazR4djd5TXEyTGUxUmhVVjl5Y09acDVUdHNNbGx4UVMtdXdrMUJzUTNUMWJOQzJqazZCQ3A2em5hZEtPSzliSEQzWk40Z0JTekhPU2hRQUFoRjlBazZaU0VyMHlTSkROdXhPVDhJdjNkenJoSmg2V0h0cko5MGxuQlY0V0J4QQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-19",
+                       "title":  "Iran\u0027s Cheap Drones Deplete U.S. Costly Interceptors",
+                       "description":  "Iran\u0027s Cheap Drones Deplete U.S. Costly Interceptors    조선일보",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 03 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "조선일보",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTlpVMnM2NlVXZ09rckRDUEtlSTVrUlFLWWF6b250SE9KNy02QVBLSlA5bFdMTGFrVTUyUHZ0WkNtWUhwR2VsNkZEOVVxa3Y3YkRrRnNSSTVLZlZYUXNWZFpoT0lsNHhhcFpFSklpdXVpejN1enE4N2ExeWJNbzZyMm55N2M?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-20",
+                       "title":  "“Bombs will fall Everywhere”: The American, Israeli and Iranian Weapons Being Deployed in Middle East",
+                       "description":  "“Bombs will fall Everywhere”: The American, Israeli and Iranian Weapons Being Deployed in Middle East    Bellingcat",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 03 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Bellingcat",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVXcxTTlzVHVPSFNWSHdYV3BSQXB3NUhtOWtwM3BwVEZLaEhKRUpIdHRDSE40UzgxaDBmY1ZKZ2FyeU9XcmtfTTJMSHNlc09EaktobUpqaEdmYVRLWHppZUdlNFNpWmxFOHNDUnI5M3NKVHVNMDJxdlJvaV9XenJyakJwSmZONUVPTmgyNV9CczdnTGw2ck5lZHJuSl9GWkRrekcxdHpjYmRlaFRjNjYyMWdXbmZLQVZsc0tab2d3Ri1DWjhIRldLX21IQllvb0l1LWlXVjRtWDI?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-21",
+                       "title":  "As Iran war expands, Trump says he must have a role in choosing the country\u0027s next leader",
+                       "description":  "As Iran war expands, Trump says he must have a role in choosing the country\u0027s next leader    CBS News",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 06 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "CBS News",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNkItZ0E2aDd2UDRLYm1nWW5KR1EyY05RX3lTUnFOTHpwbnJfckZBR0RjclVNT1paVnRod01rUVgwVTl0dy1KUlB2Y1czZmRZMkNRR1lFaTRnV09FQktuMGRIMnlxVEh6Zk95Vjk0N1dsaVI4Uy1na3ZBcWVNU1NYYkRtMUtGcURZRnpHeFUxaDh4QkRJOGIzUGt2d2ozaGvSAaQBQVVfeXFMTnRsclY0NEk5NHVmMHQwd3BzWjhZNWhSblVFaTRBM19KUWFXbjhzVFNIT1FLc2lyWHpXX0NSVmJyUjRUQTlwQWM0MVI2a0NCNDk1Wi01aHZSR3VMVEs0eUh3QThlLWgyT3laR25SaWR5WnFIdk94LXY4Zmd6eEVOQ3pQaDVRdjEzMzhCb1F4cTVzMjVJdjM2RDdMeXJhZ2Q5czJhcmc?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-22",
+                       "title":  "Hegseth says U.S. \"just getting started\" in Iran war as conflict intensifies and spreads",
+                       "description":  "Hegseth says U.S. \"just getting started\" in Iran war as conflict intensifies and spreads    CBS News",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Thu, 05 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "CBS News",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXM5TFNKSmxnUUIyVlVNY1M5Sl9rdkxmSEZ0amVJM1BJQzVLQmNMeENQcDRfLU1TLVh3Ukw4YjRqUnVqM0JOYjV6U0NMVTRrSU8tT2hKOVFqMF82MDNXbjZMRjZvR19lSUFXVTIzQ3pmZTgwTG1PZU1mTVo5cU52TW5aOVJTM1h0QnMxbnFGZm0xdDVIX04xTC1DeGFFa25Oa3VyUWpR0gGrAUFVX3lxTFBUTkdEeHVMREJsUm9qN19tQS1QSllDTVFmdHNFX0I4M3ExQjBOLUxMdlVjQUc3OUJIbi13dzNVSURzX0VncFB0M3IzMmFNUW5hT3ZiZUItckV2cThXdl9yOGVVUUxZRkdyc1B5YWY0aV9GeTdmU2VwcWNTVmdVMXBUTVI0d1JPWkZacURHQ0ctNmhnNjExWlMyb2MxajNiVlhYTVpIWFVGLUtmTQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-23",
+                       "title":  "US strengthening air, missile defenses across Middle East as part of preparation before striking Iran: Reports",
+                       "description":  "US strengthening air, missile defenses across Middle East as part of preparation before striking Iran: Reports    Anadolu Ajansı",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 01 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Anadolu Ajansı",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc1RuMnZ4dDlzR1hZMElaTG5YN1RRUVE1dGpXU0lBRDJkS1hPSTg5RXhhZ3NrcUxZZXU4eEw5eUlPWjZOVDJSRE5rdkFxbk9lYVdyVTNIQzFMM1hXQURwclRtek0zVS01YlcxQUlra1VhNVhXRndIOXIyNEpqWUE0SEtLQ3NBdW1UNUpOVkZGbUVvZUstZFl1eWRqeGRJdXM2ZmRfWk5SZUUyTU92a29nODljOEUwdEJ4eTZjZVhKT2h5dkNKWWV3ZXo3Y1NNdFZUMy04QXFNSFJMR0FKbnJHbGY5SEQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-24",
+                       "title":  "United States deploys THAAD, Patriot air and missile defenses across the Middle East amid preparations for potential Iranian retaliation",
+                       "description":  "United States deploys THAAD, Patriot air and missile defenses across the Middle East amid preparations for potential Iranian retaliation    Defence Industry Europe",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 02 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Defence Industry Europe",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdmpnRkE2cWgxaEdsMmlYZVhvY1pyT0ZqSW9LcjFVU0lWcHlfQ2dzdFVHQ250cFBpOXFMX1hnT0pRcjZxTWFZTmhaeVhjR2lqWGJ5QWlTNDhTR2VTSjVPN0ZONXRnYjhpd3B0dnMyNWJieEhyZlNSVXVoNnFDcU1rMHJsMDFpVWVBVmFHXzVmb1BPVC1DallQclVwWTZhVF90ZXoyX2h4VExLeVN2SFhFTWExOWthY1FhUWxRQ25BR1V1cjdFa1JLbXhYV2F6ZWtPWkpRZEl6S0k5MHhoVUc1TXN1NlBsZ2ZiQ3FERWRxR3gxSnIxTDZZ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-25",
+                       "title":  "US Deploys Patriot and THAAD to Middle East as Trump Signals ‘Decisive’ Military Options Against Iran",
+                       "description":  "US Deploys Patriot and THAAD to Middle East as Trump Signals ‘Decisive’ Military Options Against Iran    Defence Security Asia",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  3,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 21 Jan 2026 08:00:00 GMT",
+                       "category":  "Military",
+                       "sourceLabel":  "Defence Security Asia",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcFdfc3NGVzhVQVlWMWI4RV9rWmR1Q1ZpWHZIaVEzQW9WYXJNNkQwNVFrNUthei10VF9mZmtWUXJ3RFMyVWpWb0liYVNoRF92YTJNVTZrbDZxZUdSdjBtWURTbzVUM0stcTFpNG83Y1lEUkluRHEtcmpjMl9oYV9zNXd2b0tPLTlISXpVQzRXRXYydw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-26",
+                       "title":  "Experts react: How the US war with Iran is playing out around the Middle East",
+                       "description":  "Experts react: How the US war with Iran is playing out around the Middle East    Atlantic Council",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 01 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Atlantic Council",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNHhwVUFqVkhReW9PVUJIa0pBbk93V0VNNVRrOU1USWlBV3R5dDlSSmMxeFRSMm5sUXZrdXVCNlBQS1JlN090Q0R2N05zQXJrZUlJRkowalFGRTRvZjJ4djg4MFRnNVNONlpiZTkydWdjakdrcmo4VXZneDRZNjVyZ3Z0WEJxa2w2OG11RFZ5TjVjWmlydEd1YjJFMUdRdklKdWJPbm5YVEF2Q19ndnluN3dpU3V3NlQ5SG5udA?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-27",
+                       "title":  "Iran launches retaliatory strikes at targets across Middle East",
+                       "description":  "Iran launches retaliatory strikes at targets across Middle East    BBC",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 28 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "BBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0SGJGVW40Y0NzOTE3VWtKakFISVVxTzZIRmI1NklLNXBBMFAyblhiWkx3dHR0ZXdGSkxNZTVGRWpabXB2M0liZmJkZVNwU015LThPTXhSeV90Zw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-28",
+                       "title":  "Iran Update Evening Special Report, March 5, 2026",
+                       "description":  "Iran Update Evening Special Report, March 5, 2026    Institute for the Study of War",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Thu, 05 Mar 2026 08:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Institute for the Study of War",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRWNwaXl0QW5GRlBvUTN0TFNrR0FQVW5fc0NxMzV2RnMwb25Gdk16YlJpZnQtZDUxYzNrLUwtZ3czUWU0ckpHVzdjbnAtSnBpeWUwaW1BaHlaQ0RGYTNYajBDcXNJbVpqU2QzY2VIM3d0d3c5WVZMZkRiTnJVRHQtck1OZWVUeVBaQTBjaVo5RTVsUFVFVFJBMXZHX2lFMFU?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-29",
+                       "title":  "What is Iran’s military strategy? How has it changed since June 2025 war?",
+                       "description":  "What is Iran’s military strategy? How has it changed since June 2025 war?    Al Jazeera",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  3,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Mon, 02 Mar 2026 08:00:00 GMT",
+                       "category":  "Military",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUG1jdTlLalZyRkpyZjgyYzJGSWpyTTVXVzBNTFphT3F3SmszRnBxUHdOMFlMSy1Rb2hPZEtsRFZrcjBjaFJ5M3l1eDBuX0c1TDhDcTVEdnlPT1NNMUJmVGZzRUktLVd5UkpSMkNMSm56UmthQzY4d1VvNVZtdGYwLXJYekItanlxMlJPeElBTXlrWWxpMHl2Z0l1MWNWaVBuTnlSVFR0bUVWMnVDLXJJ0gG0AUFVX3lxTFA0Sml1dkl5cUZKTHlGSDBRekhRc3lPTVlDVlBxWmRQeGUyQWpKSjgzSG50UzVIdmpFVzFuSDh2Sl9BRDB6LXlIVE1lUjNhRE9sYzdSQlhtZTJsRWxkTVdtSU9yeFhyQ3NXVlRGaWY0alR0THFSRm1YLVh2eV9CNzY1WFBYSnFDLWJzMlM5ZlVkdkd3Vnl0dWlvdEt2ZzNMUlhITjJWVFJ3ell6NUFxWFVsNXJzOQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "israel-iran-usa-rss-30",
+                       "title":  "US may not have capacity to take down full barrage of Iranian drones, officials warn",
+                       "description":  "US may not have capacity to take down full barrage of Iranian drones, officials warn    The Guardian",
+                       "locationName":  "Iran region",
+                       "coords":  [
+                                      32,
+                                      53
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 04 Mar 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The Guardian",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV2JwWGt4VnJHQTV3YXJlUjlOMklvSkhTZFZBbnRvclJvUGlfN2pudUstWjg4VS1nUTFzNzVoaklqUUVkUDY0aWdDRG5WRzVVQVQzRTRHZXV2TUdWNUJjQTBIR2xCd3BONnFEazVld2lMZXBkNGR4RzE5VGVBWDVZMll3?oc=5",
+                       "sourceType":  "google-news-rss"
+                   }
+               ]
+}

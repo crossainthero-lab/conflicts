@@ -1,0 +1,218 @@
+{
+  "russia-ukraine": [
+    {
+      "name": "Kyiv, Ukraine",
+      "coords": [50.4501, 30.5234],
+      "exactness": "exact",
+      "keywords": ["kyiv", "kiev"]
+    },
+    {
+      "name": "Odesa, Ukraine",
+      "coords": [46.4825, 30.7233],
+      "exactness": "exact",
+      "keywords": ["odesa", "odessa"]
+    },
+    {
+      "name": "Kharkiv, Ukraine",
+      "coords": [49.9935, 36.2304],
+      "exactness": "exact",
+      "keywords": ["kharkiv"]
+    },
+    {
+      "name": "Dnipro, Ukraine",
+      "coords": [48.4647, 35.0462],
+      "exactness": "exact",
+      "keywords": ["dnipro"]
+    },
+    {
+      "name": "Zaporizhzhia, Ukraine",
+      "coords": [47.8388, 35.1396],
+      "exactness": "exact",
+      "keywords": ["zaporizhzhia", "zaporizhia"]
+    },
+    {
+      "name": "Sumy, Ukraine",
+      "coords": [50.9077, 34.7981],
+      "exactness": "exact",
+      "keywords": ["sumy"]
+    },
+    {
+      "name": "Kherson, Ukraine",
+      "coords": [46.6354, 32.6169],
+      "exactness": "exact",
+      "keywords": ["kherson"]
+    },
+    {
+      "name": "Donetsk, Ukraine",
+      "coords": [48.0159, 37.8029],
+      "exactness": "exact",
+      "keywords": ["donetsk"]
+    },
+    {
+      "name": "Luhansk, Ukraine",
+      "coords": [48.5740, 39.3078],
+      "exactness": "exact",
+      "keywords": ["luhansk"]
+    },
+    {
+      "name": "Taganrog, Russia",
+      "coords": [47.2362, 38.8969],
+      "exactness": "exact",
+      "keywords": ["taganrog"]
+    },
+    {
+      "name": "Belgorod Region, Russia",
+      "coords": [50.5954, 36.5879],
+      "exactness": "approximate",
+      "keywords": ["belgorod"]
+    },
+    {
+      "name": "Crimea",
+      "coords": [45.3, 34.0],
+      "exactness": "approximate",
+      "keywords": ["crimea"]
+    },
+    {
+      "name": "Donbas region",
+      "coords": [48.5, 38.0],
+      "exactness": "approximate",
+      "keywords": ["donbas", "frontline", "eastern ukraine"]
+    }
+  ],
+  "israel-gaza": [
+    {
+      "name": "Gaza City",
+      "coords": [31.5017, 34.4668],
+      "exactness": "exact",
+      "keywords": ["gaza city"]
+    },
+    {
+      "name": "Rafah",
+      "coords": [31.2972, 34.2436],
+      "exactness": "exact",
+      "keywords": ["rafah"]
+    },
+    {
+      "name": "Khan Younis",
+      "coords": [31.3460, 34.3039],
+      "exactness": "exact",
+      "keywords": ["khan younis"]
+    },
+    {
+      "name": "Deir al-Balah",
+      "coords": [31.4178, 34.3503],
+      "exactness": "exact",
+      "keywords": ["deir al-balah", "deir al balah"]
+    },
+    {
+      "name": "Jabalia",
+      "coords": [31.5289, 34.4835],
+      "exactness": "exact",
+      "keywords": ["jabalia"]
+    },
+    {
+      "name": "Beit Hanoun",
+      "coords": [31.5353, 34.5361],
+      "exactness": "exact",
+      "keywords": ["beit hanoun"]
+    },
+    {
+      "name": "Tel Aviv, Israel",
+      "coords": [32.0853, 34.7818],
+      "exactness": "exact",
+      "keywords": ["tel aviv"]
+    },
+    {
+      "name": "Jerusalem",
+      "coords": [31.7683, 35.2137],
+      "exactness": "exact",
+      "keywords": ["jerusalem"]
+    },
+    {
+      "name": "Ashkelon, Israel",
+      "coords": [31.6688, 34.5743],
+      "exactness": "exact",
+      "keywords": ["ashkelon"]
+    },
+    {
+      "name": "Gaza Strip",
+      "coords": [31.3547, 34.3088],
+      "exactness": "approximate",
+      "keywords": ["gaza strip", "gaza"]
+    }
+  ],
+  "israel-iran-usa": [
+    {
+      "name": "Tehran, Iran",
+      "coords": [35.6892, 51.3890],
+      "exactness": "exact",
+      "keywords": ["tehran"]
+    },
+    {
+      "name": "Isfahan, Iran",
+      "coords": [32.6546, 51.6680],
+      "exactness": "exact",
+      "keywords": ["isfahan"]
+    },
+    {
+      "name": "Natanz, Iran",
+      "coords": [33.5138, 51.9160],
+      "exactness": "exact",
+      "keywords": ["natanz"]
+    },
+    {
+      "name": "Fordow, Iran",
+      "coords": [34.8840, 50.9950],
+      "exactness": "exact",
+      "keywords": ["fordow"]
+    },
+    {
+      "name": "Baghdad, Iraq",
+      "coords": [33.3152, 44.3661],
+      "exactness": "exact",
+      "keywords": ["baghdad"]
+    },
+    {
+      "name": "Damascus, Syria",
+      "coords": [33.5138, 36.2765],
+      "exactness": "exact",
+      "keywords": ["damascus"]
+    },
+    {
+      "name": "Beirut, Lebanon",
+      "coords": [33.8938, 35.5018],
+      "exactness": "exact",
+      "keywords": ["beirut"]
+    },
+    {
+      "name": "Sanaa, Yemen",
+      "coords": [15.3694, 44.1910],
+      "exactness": "exact",
+      "keywords": ["sanaa", "sana'a"]
+    },
+    {
+      "name": "Hormuz Strait",
+      "coords": [26.5667, 56.2500],
+      "exactness": "approximate",
+      "keywords": ["strait of hormuz", "hormuz"]
+    },
+    {
+      "name": "Red Sea region",
+      "coords": [20.0, 39.0],
+      "exactness": "approximate",
+      "keywords": ["red sea"]
+    },
+    {
+      "name": "Iran region",
+      "coords": [32.0, 53.0],
+      "exactness": "approximate",
+      "keywords": ["iran"]
+    },
+    {
+      "name": "Israel region",
+      "coords": [31.5, 34.8],
+      "exactness": "approximate",
+      "keywords": ["israel"]
+    }
+  ]
+}

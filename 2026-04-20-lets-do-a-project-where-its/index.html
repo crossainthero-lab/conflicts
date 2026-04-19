@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WorldConflictUpdate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="hero">
+          <p class="eyebrow">Launch Build</p>
+          <h1>WorldConflictUpdate</h1>
+          <p class="intro">
+            A localhost-served conflict map that blends real-source ingestion,
+            confidence-ranked markers, and severity-aware incident browsing.
+          </p>
+        </div>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Conflict Feed</h2>
+            <button id="refreshButton" class="ghost-button" type="button">
+              Refresh Now
+            </button>
+          </div>
+          <div class="conflict-tabs" id="conflictTabs"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Filters</h2>
+          </div>
+          <label class="field">
+            <span>Search headlines</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="missile, aid, drone, retaliation..."
+            />
+          </label>
+          <label class="field">
+            <span>Minimum severity</span>
+            <input id="severityInput" type="range" min="1" max="5" value="1" />
+            <strong id="severityValue">1+</strong>
+          </label>
+          <label class="field">
+            <span>Minimum confidence</span>
+            <input id="confidenceInput" type="range" min="1" max="5" value="1" />
+            <strong id="confidenceValue">1+</strong>
+          </label>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Feed Status</h2>
+            <span id="feedBadge" class="debug-badge debug-badge-pending">Loading</span>
+          </div>
+          <p id="feedMessage" class="overlay-copy">
+            Waiting for localhost backend data.
+          </p>
+          <p id="feedDetail" class="debug-detail"></p>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Visible Events</h2>
+            <span id="eventCount" class="badge">0</span>
+          </div>
+          <div id="eventList" class="event-list"></div>
+        </section>
+      </aside>
+
+      <main class="map-stage">
+        <div class="map-overlay">
+          <div>
+            <p class="eyebrow">Focused Conflict</p>
+            <h2 id="activeConflictTitle">Loading...</h2>
+          </div>
+          <p id="activeConflictSummary" class="overlay-copy"></p>
+          <div class="overlay-meta">
+            <span id="sourceMeta" class="meta-pill">Source: pending</span>
+            <span id="refreshMeta" class="meta-pill">Auto refresh: pending</span>
+          </div>
+        </div>
+
+        <div id="map"></div>
+      </main>
+    </div>
+
+    <template id="eventCardTemplate">
+      <article class="event-card">
+        <div class="event-card-top">
+          <span class="severity-pill"></span>
+          <span class="confidence-pill"></span>
+        </div>
+        <h3></h3>
+        <p class="event-description"></p>
+        <div class="event-tags"></div>
+        <div class="event-meta">
+          <span class="event-location"></span>
+          <button class="jump-button" type="button">Show on map</button>
+        </div>
+        <a class="event-link" target="_blank" rel="noreferrer">Open source</a>
+      </article>
+    </template>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

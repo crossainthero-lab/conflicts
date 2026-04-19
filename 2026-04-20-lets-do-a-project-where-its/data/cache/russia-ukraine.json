@@ -1,0 +1,550 @@
+﻿{
+    "conflictId":  "russia-ukraine",
+    "sourceLabel":  "Google News RSS via localhost mapper",
+    "status":  "live",
+    "refreshIntervalSeconds":  600,
+    "lastFetchedAt":  "2026-04-20T01:50:22.6625188+10:00",
+    "message":  "Live events were refreshed from Google News RSS and mapped onto conflict-specific locations.",
+    "events":  [
+                   {
+                       "id":  "russia-ukraine-rss-1",
+                       "title":  "Russian Shelling and Drone Strikes Wound Seven Civilians, Including Children, Across Sumy Region",
+                       "description":  "Russian Shelling and Drone Strikes Wound Seven Civilians, Including Children, Across Sumy Region    UNITED24 Media",
+                       "locationName":  "Sumy, Ukraine",
+                       "coords":  [
+                                      50.9077,
+                                      34.7981
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Mon, 26 Jan 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "UNITED24 Media",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOFl3Skt1bEZWaGd2TkVEQjhUbDlqRWRCcF9TZk5LVHJmTExBUlEyZmprU3loVzAyaHpNSldaaGRqN3NtVjFlS3ctcXJodmJfRFFNYWZZQWVGYzlic1l5YUZMdzcweUowZUJKNVJpWjZmZURyVGV2NmxCRktRb2owTUl5alhtZ1dRRVpwdTJJZWRkRWYxSTYxdHRMX0F1ZUtyTl9GV3gxdFJ0TUptMDhlZ2tOZ3JqVTdmdzdOLVdiR3piNURZQzAxY0x4NlBDODI0bWlhQQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-2",
+                       "title":  "Russian Shelling in Kharkiv Region Kills 2 Emergency Medics",
+                       "description":  "Russian Shelling in Kharkiv Region Kills 2 Emergency Medics    Kyiv Post",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sun, 15 Mar 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Kyiv Post",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9oNktaSTIzZUl1LWcwYkRyN0pka0Q5dHFEV0lnNDRjZHdWTEdGQ3dUNkN0cmJGNG1naDF0Q3pYcXE5NGpFYkduOW00NA?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-3",
+                       "title":  "Russia\u0027s drone and missile attack hits Kyiv, Kharkiv and Kryvyi Rih overnight - RBC-Ukraine",
+                       "description":  "Russia\u0027s drone and missile attack hits Kyiv, Kharkiv and Kryvyi Rih overnight    RBC-Ukraine",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  5,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Thu, 26 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Google News",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUzBENUJWcHIxT0VEYllBS2RIY3dMVThnMmtWamZBVGYxeDM3TWZpdFl4dF9KZEpLTEdPd3E4RnZWVks0azlQNmlGTVdBX05vQmJLeUdHS3kxX2wta1RObTUwZ080ekg2U3lmY0ttck8wUWFNUFkzT0xPbTZHVVRydUhQNlFHTXlQcDhZeXcxdDdydjA4NFE?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-4",
+                       "title":  "Night attack on Ukraine - Russia uses drones, ballistic missiles, and Zircons - RBC-Ukraine",
+                       "description":  "Night attack on Ukraine - Russia uses drones, ballistic missiles, and Zircons    RBC-Ukraine",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 22 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Google News",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMHZ4MlFZVkg5UGNXM0ZCR0tTMzB0NzNhLXZ2cWgxTzNWNFAyOHRySXRiRHBnZ18tRGNSUTRNWUVPVUEtNURYVWs5RGNyNmlZczdxNVRzZE0xTDFkWWxXemlYLUx6NFhmUkplX3hBMThIY1YyV1dWcTZ2UERjUXJza0tMSXdPQ3JRSHdKRXZpc281M0hX?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-5",
+                       "title":  "Russia-Ukraine war: List of key events, day 1,321",
+                       "description":  "Russia-Ukraine war: List of key events, day 1,321    Al Jazeera",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 07 Oct 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN25GZTBGRUdENTlaNnhGMGgxdkdvTHFIdmJwTUNCUkVFUC1LUFpZeXBqMVVsUEV3NzlMbk51Mjd6WWh1T3pFMmlhWFBDLWFTMkVpQktVMVVWc1loVDgyckU2WUlsajNsT29mOG42Y0V5UUt6SzlEcURVOFlOd0E2N0NRM3FubEh3Y0dtTkdhRFDSAZYBQVVfeXFMUDRCbzRocnNZdmM3UnAyNm16YWNmdkNsUHlNZWhLMzRzSVBsS0RHRnBFbUlWdVJXbEhxTjdlcTgwcUdlNkJWZ0xuX2pRMGJFSjllM1JYdWFwaGp4dm4yMjNSNUJnSU1ZMHN2SDNRX1pZVDdDNmZIREhzTzJqOWVnQ3BhYndsTm41MUFUUGtBbUpuTFFsaU1B?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-6",
+                       "title":  "Russia Responds To Washington Talks With Mass Drone And Missile Strikes On Ukraine",
+                       "description":  "Russia Responds To Washington Talks With Mass Drone And Missile Strikes On Ukraine    Radio Free Europe/Radio Liberty",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Tue, 19 Aug 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Radio Free Europe/Radio Liberty",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ1NmZnprSDdMLXFmeGF5aW40VUlfVVBDbHY5RU5LemtMbDJMYnZjaDFrQlhDWF9Vc3NCTFJEQ3RZWkRVSUVXUDN4MVB0QzAya1NyaTZiSTRWaHY4c2tuWFBVb0dKLS1qalhaWU1nQ0V5bVlpTHJ4d1EtX3FtbU1heDJScE9UZ2VtRWFEQnpFUFMwbVFCMnNBeFV2UEFfb0JmWEFNQ2ZEa2FxXzZLRjljdXJlejh1NElwM1R0UnVtWEc5OVVFZW8zdzNnV2pfeEFhWnNfamxpMNIB2gFBVV95cUxPNXAyTTU1cGYtY0FYVVRGV3V2SFlvNHMxWElpbEdUQ3hLQkFhaDJ2QU5FREJya1o1YXVKbHpBTHdobjNSQlVFM2xVa1BhYWFTODdjWl85RVo2cWNrN1d0SUNsUVBNMGRuM1ZrSkVjVFhGX1FGZlJNWXVIaDBrNlVTZS1XYlVOZUhQaTVhVVFrYlEyZ2JMU3JudGFYcGdyalA3THVYa1ZWY2dlOGRWZFZSREdab1FIbHZnZWx1RlRwOHRQX3VVN2NBcWN0dlBjN2dvbkFDSjUtMXZndw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-7",
+                       "title":  "Massive Russian attack on Ukraine: Where explosions rang out and the shelling’s aftermath",
+                       "description":  "Massive Russian attack on Ukraine: Where explosions rang out and the shelling’s aftermath    ТСН",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Thu, 30 Oct 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "ТСН",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbkY2LTdBR2pQc0xwMklTM25XUVRQb0xHQXZzMEVHUGZOM1RhcDlFdG5icW5NdFN3enVGRnRNWGVyb2M2WXg0RzRlak5BS3JXQ0VYYTg5T3YxZndUMjN6TGxMNlV2UDRYU21vdksxb2xDMnFnM0tJVFFTQ0ZsTDMxZWNTTkwxSjRmbkU2R0ItT29HOW1sUllHX1A4T0RJcFIwb29NYndlemx3WURtNTI3RnhCVDB2N0pMcGxwUy1ZN2drXzJkWEHSAcsBQVVfeXFMTkdyNU9UZVZqYURfbkR5dVZoUGVJQ05raWg5NENuNld0RmFRZW9OZmZZeXhCSl9WcW9sSURZM2xhNWNiaHVrRDF2UDhQOUJVQS1WYldlUURSTUtQNVJZRUQ3UGFRZ2NhSG9CRjU5X3dNZElsWEJhZXcwNkhFWWNQVm1pTWhFNUZ4aUxnZTBueWJZVm92YkdRTTBBclNxekdaVzJNQXM1VFotSFBZcHkzMkVkSTNTaktSWkdDVVB5TkFocmNHOENJSmxlOG8?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-8",
+                       "title":  "\u0027Massive\u0027 Russian strike days after air base attacks",
+                       "description":  "\u0027Massive\u0027 Russian strike days after air base attacks    BBC",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 06 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "BBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HMEJwMFFnRDhzX1J4SUJJLU5XUTJfeW9yYk9Xdm93TGFYS1NIVUxvN2ZBOTNrZ0dMc3RYRWczYUpKV3pRWlZKNzhVeTJEbUJvX19ybjhDYnBPQQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-9",
+                       "title":  "Russia launches largest missile and drone attack of Ukraine war, Kyiv says",
+                       "description":  "Russia launches largest missile and drone attack of Ukraine war, Kyiv says    France 24",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  5,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Wed, 09 Jul 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "France 24",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0RHa0tuWlFuazlNQmkzTXNwbnhkeF9hZGlCZnNyZmJRd1BzMFVubmVsOTFWQjFHcDZDNTFiZ2llUXdLbF9XeV82ZjRPTHNja0RaemFiYkF5VEgwRGh4cHVvbTRMRXhLQ0hERW5PTW5YRlNTRGY1VC0wR3h5dE1ZMXZsWmlZUmVMUHpGaDRLaXB3eUtMWEVhWWhlbFU1ei1GZTJaaGx5Zl9XSElhN3NUcngxWmRiVG0t?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-10",
+                       "title":  "Russia launches huge attack on Ukraine days after ‘Spiderweb’ drone raid",
+                       "description":  "Russia launches huge attack on Ukraine days after ‘Spiderweb’ drone raid    politico.eu",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 06 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "politico.eu",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZUY0YlhULXVkQUpSUXdueFF6Q2lPakJPNW9jcXhLUkpuRlJod3N0d3ZOMV9jckZLVS1FbDJncEJMMGFUdG5qZkF5aDFnTjJhWDM5MXJXQ2VBUld5Zkh4YW4tdkZfWXNIbElkMHo0cDNRbWlvMkExWFhmeV9JTjhHME1jTEY2TmFPd1ZfcmVJVXk1Z0N1aENaVEh0TVZMTTUwb3cwaXBzRjYxemliRU5WejA4UEMwdWJ1MWJtWmktQ0JvZw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-11",
+                       "title":  "Bombing into submission: Russian targeting of civilians and infrastructure in Ukraine",
+                       "description":  "Bombing into submission: Russian targeting of civilians and infrastructure in Ukraine    ACLED",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 30 Jul 2025 09:09:25 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "ACLED",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNERRdXJJYmg5NU5UVWJTeHY0YmMwaTBWTjRrWWNvY0hFekZ6SzZSb2RlcWhZOXZZc2NhUzNRQVczTzRGVHpHRnNvT0pYX0ZrSGIxRkdDenRFUzdBbzFjSWpVX2dWM2t4ZFJmVktUZEhta1Vzak1KSXJ4WlNpRlBncVlzUG56NzU2TE0wNkZmbUVsQjNQLVQzTmRLV3EwUzhyd3U2Sg?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-12",
+                       "title":  "Ukraine war latest: Kyiv strikes Russian drone factory, Moscow targets Boeing\u0027s office",
+                       "description":  "Ukraine war latest: Kyiv strikes Russian drone factory, Moscow targets Boeing\u0027s office    The Kyiv Independent",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sun, 15 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The Kyiv Independent",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX0hwc0VTYUlhU3pNRHF4X2VfOVVFaERRVUV1Q0FpNjMtdlUtbWJuUFRMd3FpMk81eXEzM2RkMkdGLU5hODdCbFNnRWdfaEZBNG1TaU9raE5pZ29qZUlIWXBfdG4wM0NBa2tLSHU5OVpiRFZkeGVsWGlkQjJtOFJCNGNZaEpsaGR1ZGlTcWFKbkItcUt4MXdtMVltUnZpR29NTzBoU2QzNkFmUVZO?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-13",
+                       "title":  "Ukraine: NGOs\u0027 statement on the devastating consequences of constant bombing and shelling on civilians",
+                       "description":  "Ukraine: NGOs\u0027 statement on the devastating consequences of constant bombing and shelling on civilians    ReliefWeb",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 11 Apr 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "ReliefWeb",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORE1kN3Q1U2J4dkhoQkhEeXV2cl9JRVZNMmlCcFlXZHNiZGY3czBGaUU2dWlBcmUtc2Fpa3ZzSmdTNmEzS0N4TW0yQ0ZjVm94a0Q4MWdVaTJyMXRTd3psaHNOd1dYMC1ybWpzalhoN2ZUanpRalR0blFBWEFTV29Nb21HNWNiZGM0SVpVY080RUVFVVlWdnd0VldVLXlReVVGcTNDMkJ3Mzc1c19tOFVSM0V5RmRGd09tR0pGZWtjR3p3dw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-14",
+                       "title":  "Russian air strike on Ukraine kills four, injures 15",
+                       "description":  "Russian air strike on Ukraine kills four, injures 15    TVP World",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sat, 14 Mar 2026 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "TVP World",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSzFlYVI3Ymw5VVU5MWpablNHTzFIVmN0eHNWSnlCTEtCRUx3bmVIbUlISUpjdWFBSTRFdEVLQlpUVWJiUTNJU2RLOXRoN1dZX1NkVzR0anI5bG5OZ1hNa1RIdXI4WExuQUJ6SGRGcUhjYk12U1ZURFk5Vnp2eVVTcFVQVmJZTExqWVlNbml6SkRHa0I0SkRwLUFJWQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-15",
+                       "title":  "Russia attacks Ukraine’s Kharkiv as prisoner swap hangs in balance",
+                       "description":  "Russia attacks Ukraine’s Kharkiv as prisoner swap hangs in balance    Al Jazeera",
+                       "locationName":  "Kharkiv, Ukraine",
+                       "coords":  [
+                                      49.9935,
+                                      36.2304
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sat, 07 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd2xoYjRGeGNUNXVoaENXR3Y0dDRSd2dmbjJpZVcwNEpKZjhuc1NOTFdMS3JOTUFTM3Jyb3FYcjBiNm5FUzJRenlCR3dpUkFSS1Nuc1F0anE1WWJydnZndUhrNHVIZ1pyZnFtanFzMWJ2NTdUdnVGS1YxRzJhTWc5X2hmUEFXUmxtQVVlS0N3MzR5OVJQR0dxcUhoQ2hvYkp6em9fWkZrMFNjalXSAbABQVVfeXFMT012QkRoSUtVeElpWEVINVNqVXBDZWFhTnkwUHV3SlI4b2sxb21qWG4zVWp2TGpCWG9ocGpCcFpvV2gwOGJQQXpWNm0zcEZDd3F1UjRESVY2SWtiYWFfNm9CdUZGbnYwQl83WnBMZXBHOWRVRWpRSTN1ZWRJU2ROLW5BanVVWWpIVjdfamFRWHhqbkxRMm5EMkplRmtydXRKT2xxQVlDaEw5eUNTbnhNV04?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-16",
+                       "title":  "Russia Launches Massive Missile and Drone Assault Across Ukraine—Rescuers Killed, Dozens Civilians Injured",
+                       "description":  "Russia Launches Massive Missile and Drone Assault Across Ukraine—Rescuers Killed, Dozens Civilians Injured    UNITED24 Media",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 06 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "UNITED24 Media",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNenNVOWpkM0xRVHVQUXZzemdENVN4S1ZBYmR4eGl0QVN1UHFFLXZXY3NQeUJEOERrUDJqbnFfQWdSRHR4LU05RDQ2eVRKWHh4YmNSdmNqOUVXcXVIVEllenZ5UjgzZnpPSDRabkVDQms4S3AzeXZpQVU0Rk0wa2RmVTA4blY4WWc3LXNhQjF2VjMwLW5PWVdPaDhPRzFZVnZnWXo5M1FmNmVfV3pFaWttRlMxbE9kb1BkMjYtVjJqZ2RxajEwR0dYRzlSTGhacGNmWEpxdnh4RHpkRlNPQnNfVTBB?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-17",
+                       "title":  "Four dead in Russian drone attack on Kyiv as Ukraine targets Russia’s air fields",
+                       "description":  "Four dead in Russian drone attack on Kyiv as Ukraine targets Russia’s air fields    France 24",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  5,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Fri, 06 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "France 24",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTVZDSHh5ZUplY2ZPbk1peVM1RG56RnFYdUZmR3JXNk5PX1YyZGswWGdlSzRlUTREMGFlb1ZrZXVNN0l2SHVhQ0Y5dlZQT1AxNEctOVZsa1FHTE1HV2JOaU9GaGc5c3N0bHRSYkNTX0ExLTFRYlBTVXNiZk1vWVNHb19ZaFhVMDRvRmEzN0xlS09TbF9IYm9yQWpGV29VUl9QbGdZakcxNHNFYll2OGs0d2VXd3Nkd3FVdUZsVXJPaEdXRE0?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-18",
+                       "title":  "Russian Missile Strike Hits Ukrainian Military Training Area, Killing 3 Soldiers",
+                       "description":  "Russian Missile Strike Hits Ukrainian Military Training Area, Killing 3 Soldiers    Radio Free Europe/Radio Liberty",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 30 Jul 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Radio Free Europe/Radio Liberty",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTjd2V1lGRWZLam1ObnFyN21HZlhHeUdDZE9ibmtNeXJ2TG1jbDFfLWt5WDJjV3NEcjNIRmRjQnVnYmxIT3RXc0k2ek1xN3A0WV91aWxsdDR1ZjU4dEdrODRyYnNJTW8xenc1Nms0X3NId1hSUUg0cVVDdWFrR0hXWk03ZnTSAYcBQVVfeXFMTjNuYTJfc0ctRlI2MDJzbE9mYWhpbWwzcy1nRDJnT056TGJwWjRBSDRxaFh0STl5SGtNSUVhb3p5TkNLVkxEb0Z2dFpzQXYteDBEQlFuY0RXYXFvd1EwYjRaM1ViVF9Za0t5Y2VmYmFxTGlwX1NMdGt2UUxTOVpVSDgzak1US1NV?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-19",
+                       "title":  "Russia-Ukraine war: List of key events, day 1,242",
+                       "description":  "Russia-Ukraine war: List of key events, day 1,242    Al Jazeera",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  1,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 20 Jul 2025 07:00:00 GMT",
+                       "category":  "Developing",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMikAFBVV95cUxNclgyenZzZzFac2tzWTRTYUx2N3ZINUlmVHFvaG10UXV2a1g2S2lJYjNHUmV5ZmFRdGx1ejd3aFFFX1VTb1RkRUFjSk00RnpiUkprMl9zMU1fYTR4VERZUWZteHR2NGI1R2FlSFBkb2VQemJNa0dwU2dlVUxUUDZPX2RXSlpGYWQyOEVhX2Nzb3rSAZYBQVVfeXFMUEwtRzBhdFVjVU9mVjR5Rmo3dzRTa3pPU0pNcUJzNHl2dDdfREJNY1h1aFc0Q3NOdll0NFo5NUlLTDlON0k4ME5aT1NodlEta1Zsczc5RXRvUlBBblR3TXhUd1lQRkstZE1TQlJWc2N0T1RjVjJOUkMwMjB5cmUwdFdwOVZ1eWpWNnhJTHR5MUV0TXN3cVFn?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-20",
+                       "title":  "Drone Strike Ignites Russian Chemical Plant Supplying Explosives for Army Artillery Shells",
+                       "description":  "Drone Strike Ignites Russian Chemical Plant Supplying Explosives for Army Artillery Shells    UNITED24 Media",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 08 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "UNITED24 Media",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVWxENGpmYkJfakplc2U4QlBMUXg0QWpCbVJQZkNhUS1nWmU0Z0hLWlowTGY3TGRiZHZQQ0JBOG5WQW50RlRjN2RNOHZMeTM1QWlKMTBkeEhsem81RXRGV05tbzF0c2NtckYtNmY4QjlTRkVmX0ZCVURVV0tXOVVzNlJtUkZUWWQxblJpeF84ejRNVmdQWnFpSE5fcUdldkt3WU1Jd0x1NG9SejdTTkZLTl9qZElhM05leTV1T1NGWVBVVXp1bzg3dWs2QjlTQQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-21",
+                       "title":  "Russia pummels Ukraine\u0027s Kharkiv in \u0027most powerful attack\u0027 since start of war",
+                       "description":  "Russia pummels Ukraine\u0027s Kharkiv in \u0027most powerful attack\u0027 since start of war    France 24",
+                       "locationName":  "Kharkiv, Ukraine",
+                       "coords":  [
+                                      49.9935,
+                                      36.2304
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sat, 07 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "France 24",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW96RTB1S1hLUUNEZWh6R2RRZjBRM01KZXlXSlRTdnpfbVRBcllUSW1lMEVCZjk2VHVobnlzcWo1eGloOHdUTFNfQl9qNXp0dUd6VW1jclhJLXlwTGNvZ3F3NjlHNkdfTUFEUjlIY2FPbmxXZzFMRmZ4V2Eya3h4aWdjcHpYRzJIN00wSDRpRF9NZkQ5djdPWmNCN1Z3Vjhfcnl3TGh1Z2pmeEtpZUl4VnRYZXg?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-22",
+                       "title":  "India and Pakistan: The first drone war between nuclear-armed neighbours",
+                       "description":  "India and Pakistan: The first drone war between nuclear-armed neighbours    BBC",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 09 May 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "BBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zc1UtVzZDckNjLUJSaDNqcFJudWJVWEdpemVPTzdGaTdDTmtlbnU2Nk5Qel95WWgwT3VsSEJ4aHRzNF95cjRfTEg0bjNaVEMyRUViOWgwanRpQQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-23",
+                       "title":  "\u0027Quite severe\u0027 damage to Ukraine\u0027s energy infrastructure after massive Russian drone, missile strike",
+                       "description":  "\u0027Quite severe\u0027 damage to Ukraine\u0027s energy infrastructure after massive Russian drone, missile strike    The Kyiv Independent",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  5,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Sun, 07 Dec 2025 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The Kyiv Independent",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2VJNmlXMGxlb3hxd2o4cE1xTGFJUXhaeUNJRmxpa21lSGVsOXUzS1haR0p5c09VRDVqOElZQTFiV3B0Ml96RHZLczFXTEU5aXl1ZFN1SERIYmFPWVdrWW14bzl6V2tFbmZYVkFMRUJnelIwQlFnZXBVSTVNZ0ZRMnNlbkhwMjh2NUdjUTB2Y3FwSkVpd0ZUcHhiTQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-24",
+                       "title":  "Drone attack on Chernobyl nuclear plant casts a shadow over Ukraine peace prospects",
+                       "description":  "Drone attack on Chernobyl nuclear plant casts a shadow over Ukraine peace prospects    Australian Broadcasting Corporation",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 14 Feb 2025 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Australian Broadcasting Corporation",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMioAFBVV95cUxORU11NTBVb0UtUnlHX0VLbk9aOGlNWlpobXdWZ0xINVhyOG80bGJocjhQaVRicXM4MUItLU9nQ253TXdmbVRfNkh2NXFOVFJFVkRsOC03LUhSZURxYUlNRGIyRU1FZ3RyZFo2M3ZsNFZyM3hmZkFLaVZUSDh2UjAxQUhfVmt4OXhzQ3FpWnRlTURHUWcwUmhKV3FGc1JzejB6?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-25",
+                       "title":  "Russia launched its largest aerial attack since war began, Ukraine says",
+                       "description":  "Russia launched its largest aerial attack since war began, Ukraine says    CBC",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Sun, 29 Jun 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "CBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TU0VHSmE5a0FhOVdPTVpOQm55dmZ2Q0VuM25Qb19NZEUxS3FXQ2JtQTQ5c0RGUUp5em1QWlBkTUVka2xWbTl6M2IzRDBNa2ZMeDhRN0loeGZUVDR6M1RBc2FWV1RnUGdrMGsyeHhHVlJNWE0?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-26",
+                       "title":  "Ukrainian Airstrikes Knock Out Power in Belgorod Region for Second Time in a Month",
+                       "description":  "Ukrainian Airstrikes Knock Out Power in Belgorod Region for Second Time in a Month    The Moscow Times",
+                       "locationName":  "Belgorod Region, Russia",
+                       "coords":  [
+                                      50.5954,
+                                      36.5879
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Wed, 04 Feb 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "The Moscow Times",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT2pMbmZmUTdMaHU1RUxOblJhUDJJekJzWE9JeGYzMmN4Wjdqb2k2YTVSdjhaTGFNYzlETW9GZDc3bTZVdjBwcXJldUxxdDVaaE04VmJDRXNjN3hNanh5dDZrRVBVRW9IX2pSYzRyVU44SlpHa01ZMW9lMk02SWRsdG1UYlZPUGIwRjY0VElwQUVRMDdQazJ3bFdCdldPTkRGTkVLTExjN1pxeF96eFY0SE5hczZhYXVKYlZlZ2Z0ZG1IT01UREg4N2lZTQ?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-27",
+                       "title":  "Russia launches nearly 500 drones and missiles on Ukraine overnight",
+                       "description":  "Russia launches nearly 500 drones and missiles on Ukraine overnight    Euronews.com",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 10 Oct 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Euronews.com",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVnZiUkZpX0NOWWpJblhReTlKWWpjQkFZdWtwZjRBcW02OEplQ3RPczhFSktyNFUyNXRjMGhVekdWTGstWTZ5MzdiYmFNVllfUUlrdGhGcU1pVWxwcGtjNlIyMm9SaXRHTTBhYnBGcHk3VUdOSWc2SGk3Y3h6eGo1YWdmWUdPdm0zQmtPLTBVNTQ1TGNGRW1YVFZyT3ZRRUZLX0V2VVFBMk9LUmhESFFhdXhLZFNSQnZUdkFNaw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-28",
+                       "title":  "Russia pounds Kyiv with largest drone attack, hours after Trump-Putin call",
+                       "description":  "Russia pounds Kyiv with largest drone attack, hours after Trump-Putin call    Reuters",
+                       "locationName":  "Kyiv, Ukraine",
+                       "coords":  [
+                                      50.4501,
+                                      30.5234
+                                  ],
+                       "severity":  4,
+                       "confidence":  4,
+                       "exactness":  "exact",
+                       "reportedAt":  "Fri, 04 Jul 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Reuters",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMizAFBVV95cUxONW9yM1VHMGVNTVNYNDdqRV80Mk9walNzV0FVSkVWUDNTR215S3JEYXIwV3ZaQ1dLalA0QnNmWDJCekMwQ3JrNVp1WVZGOHFlaUYzRVdkVkVwWWNxay1hRjF4NERxcHNRS1F2Wk1Qa3d1WjRpWUJVbG9SOFdmazRRS1RIYUNra1lzQVYxZmY2Y3c1WVdPSy0yTWdCaHJZUk1XZzZDTmx6ZXVORFNfOHRfSlRVd3k4X0kxcjBld2QxTEZqS2xzcTFIcjdYaFk?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-29",
+                       "title":  "Russia stalls ceasefire talks as it intensifies attacks on Ukraine",
+                       "description":  "Russia stalls ceasefire talks as it intensifies attacks on Ukraine    Al Jazeera",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  4,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 04 Apr 2025 07:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "Al Jazeera",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZU5PYmw1ZGlyN0NqR1k3QUhSbElKYk9pdVA1eXh6dVRMczhPVFlTcjZ5OE1KUDNObzJXcldTSjBqUWxrcU9qWEt5Y3pTemFWZDhJajczYjlIWVBkNEhMeTA1Rm1SS2xBOFdQN25JTzN3bnBvWHBzWi1YZ1JyZ001ejdvY3QxblJIWF9TS29za0pYYkVWdzk1QXU3UW1CS091REpxSTZEYV80QdIBrwFBVV95cUxQUExzcmx2XzRhR0JrMkdESnlXNkJDZnA5QWZQOTRXdEN2WXRldDdGYlN5RDhvOFJXZ3ZveE8wUm02MW5mWGtlUzluZmFYR2Ezbm9iN1VXSDN2UG1PZ016alZEbGdNTl9CTFFoS24yR2tobFdXVURDWTBzWjVwQWRVZ3EwSTZBNlVSUkFTMFJjeGlrTTdlZWFQZFp1ZEcyY180SDBPWWItNHh6V19HbFo4?oc=5",
+                       "sourceType":  "google-news-rss"
+                   },
+                   {
+                       "id":  "russia-ukraine-rss-30",
+                       "title":  "Oreshnik ballistic missile fired in fresh strikes on Ukraine",
+                       "description":  "Oreshnik ballistic missile fired in fresh strikes on Ukraine    BBC",
+                       "locationName":  "Russia-Ukraine region",
+                       "coords":  [
+                                      49,
+                                      31.2
+                                  ],
+                       "severity":  5,
+                       "confidence":  2,
+                       "exactness":  "approximate",
+                       "reportedAt":  "Fri, 09 Jan 2026 08:00:00 GMT",
+                       "category":  "Attack",
+                       "sourceLabel":  "BBC",
+                       "sourceUrl":  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SLVYtZjNHRjNaNjEwTl9vYllHV3o3N0dRenlIRXhaNDFObmlvdldSOVZZRmNqSGNfbWxNeW5feTFCdG1uUVgtcldQQzRPeHNOZEVja2tVdlJIdw?oc=5",
+                       "sourceType":  "google-news-rss"
+                   }
+               ]
+}

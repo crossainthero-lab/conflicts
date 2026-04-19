@@ -1,0 +1,50 @@
+{
+  "russia-ukraine": [
+    {
+      "id": "rua-fallback-1",
+      "title": "Fallback: overnight strike reports near Kyiv",
+      "description": "Cached placeholder event used only when the live feed cannot be reached. Replace this with fresh backend results during normal operation.",
+      "locationName": "Kyiv, Ukraine",
+      "coords": [50.4501, 30.5234],
+      "severity": 4,
+      "confidence": 4,
+      "exactness": "exact",
+      "reportedAt": "2026-04-20T05:20:00Z",
+      "category": "Strike",
+      "sourceLabel": "Local fallback cache",
+      "sourceUrl": "https://example.com/fallback-kyiv"
+    }
+  ],
+  "israel-gaza": [
+    {
+      "id": "gaza-fallback-1",
+      "title": "Fallback: strike aftermath assessment in Gaza City",
+      "description": "Cached placeholder event used only when the live feed cannot be reached. Replace this with fresh backend results during normal operation.",
+      "locationName": "Gaza City",
+      "coords": [31.5017, 34.4668],
+      "severity": 4,
+      "confidence": 3,
+      "exactness": "approximate",
+      "reportedAt": "2026-04-20T04:05:00Z",
+      "category": "Strike",
+      "sourceLabel": "Local fallback cache",
+      "sourceUrl": "https://example.com/fallback-gaza"
+    }
+  ],
+  "israel-iran-usa": [
+    {
+      "id": "iiu-fallback-1",
+      "title": "Fallback: regional military posture update",
+      "description": "Cached placeholder event used only when the live feed cannot be reached. Replace this with fresh backend results during normal operation.",
+      "locationName": "Baghdad region, Iraq",
+      "coords": [33.3152, 44.3661],
+      "severity": 3,
+      "confidence": 2,
+      "exactness": "approximate",
+      "reportedAt": "2026-04-20T01:00:00Z",
+      "category": "Military",
+      "sourceLabel": "Local fallback cache",
+      "sourceUrl": "https://example.com/fallback-region"
+    }
+  ]
+}

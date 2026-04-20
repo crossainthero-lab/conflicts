@@ -18,9 +18,10 @@ On Cloudflare Pages, those are now served by Pages Functions instead of the loca
 
 ## Live-source strategy
 
-The current free-source ingestion path uses `Google News RSS` plus `GDELT DOC 2.0`.
+The current free-source ingestion path uses `Google News RSS`, `GDELT DOC 2.0`, and a bundle of publisher RSS feeds.
 
 - each launch conflict has its own RSS query and GDELT query
+- publisher feeds currently include BBC World, Al Jazeera, The Guardian World, NPR World, France 24, DW News, and UN News
 - Pages Functions map articles onto a conflict-specific location list
 - exact markers are used when known cities or facilities are explicitly matched
 - approximate markers are used when only broader regional language is found

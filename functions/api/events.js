@@ -9,6 +9,16 @@ function decodeHtmlEntities(text) {
     .replace(/&#x27;/g, "'");
 }
 
+const NEWS_FEEDS = [
+  { name: "BBC World", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
+  { name: "Al Jazeera", url: "https://www.aljazeera.com/xml/rss/all.xml" },
+  { name: "The Guardian World", url: "https://www.theguardian.com/world/rss" },
+  { name: "NPR World", url: "https://feeds.npr.org/1004/rss.xml" },
+  { name: "France 24", url: "https://www.france24.com/en/rss" },
+  { name: "DW News", url: "https://rss.dw.com/xml/rss-en-all" },
+  { name: "UN News", url: "https://news.un.org/feed/subscribe/en/news/all/rss.xml" }
+];
+
 function stripHtml(text) {
   return decodeHtmlEntities(text || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
@@ -38,20 +48,35 @@ function confidenceFromLocation(location, title, description) {
 }
 
 function parseXmlTag(block, tagName) {
-  const match = block.match(new RegExp(`<${tagName}>([\\s\\S]*?)</${tagName}>`, "i"));
+  const match = block.match(new RegExp(`<${tagName}(?:\\s[^>]*)?>([\\s\\S]*?)</${tagName}>`, "i"));
   return match ? decodeHtmlEntities(match[1].trim()) : "";
 }
 
-function parseRssItems(xmlText) {
-  return [...xmlText.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map((match) => {
+function parseRssItems(xmlText, sourceName = "RSS") {
+  const rssItems = [...xmlText.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map((match) => {
     const block = match[1];
     return {
       title: parseXmlTag(block, "title"),
       link: parseXmlTag(block, "link"),
       description: parseXmlTag(block, "description"),
-      pubDate: parseXmlTag(block, "pubDate")
+      pubDate: parseXmlTag(block, "pubDate"),
+      sourceName
     };
   });
+
+  const atomItems = [...xmlText.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map((match) => {
+    const block = match[1];
+    const linkMatch = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i);
+    return {
+      title: parseXmlTag(block, "title"),
+      link: linkMatch ? decodeHtmlEntities(linkMatch[1]) : parseXmlTag(block, "link"),
+      description: parseXmlTag(block, "summary") || parseXmlTag(block, "content"),
+      pubDate: parseXmlTag(block, "updated") || parseXmlTag(block, "published"),
+      sourceName
+    };
+  });
+
+  return [...rssItems, ...atomItems].filter((item) => item.title && item.link);
 }
 
 function parsePublishedAt(pubDate) {
@@ -72,6 +97,39 @@ function filterRecentItems(items, maxAgeHours) {
     .sort((a, b) => b._publishedAt - a._publishedAt);
 }
 
+function normalizeGdeltDate(seenDate) {
+  const raw = `${seenDate || ""}`.replace(/\D/g, "");
+  if (raw.length < 14) {
+    return null;
+  }
+
+  const iso = `${raw.slice(0, 4)}-${raw.slice(4, 6)}-${raw.slice(6, 8)}T${raw.slice(8, 10)}:${raw.slice(10, 12)}:${raw.slice(12, 14)}Z`;
+  const timestamp = Date.parse(iso);
+  return Number.isNaN(timestamp) ? null : timestamp;
+}
+
+async function fetchGdeltDoc(query, timespan) {
+  const url = new URL("https://api.gdeltproject.org/api/v2/doc/doc");
+  url.searchParams.set("query", query);
+  url.searchParams.set("mode", "artlist");
+  url.searchParams.set("format", "json");
+  url.searchParams.set("maxrecords", "50");
+  url.searchParams.set("sort", "datedesc");
+  url.searchParams.set("timespan", timespan);
+
+  const response = await fetch(url.toString(), {
+    headers: {
+      "User-Agent": "WorldConflictUpdate/1.0 (+https://world-conflict-update.pages.dev)"
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`GDELT DOC failed: ${response.status}`);
+  }
+
+  return response.json();
+}
+
 function findLocation(text, locations) {
   const haystack = text.toLowerCase();
 
@@ -89,11 +147,18 @@ function findLocation(text, locations) {
 function deduplicateEvents(events) {
   const seen = new Set();
   return events.filter((event) => {
-    const key = `${event.title}|${event.locationName}`;
+    const normalizedTitle = event.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    const key = `${normalizedTitle}|${event.locationName}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+}
+
+function matchesConflictKeywords(item, keywords) {
+  if (!keywords?.length) return true;
+  const text = `${item.title} ${item.description} ${item.normalizedDescription || ""}`.toLowerCase();
+  return keywords.some((keyword) => text.includes(keyword.toLowerCase()));
 }
 
 async function loadStaticJson(origin, path) {
@@ -125,11 +190,27 @@ async function fetchGoogleNewsRss(query) {
   return response.text();
 }
 
+async function fetchRssFeed(feed) {
+  const response = await fetch(feed.url, {
+    headers: {
+      "User-Agent": "WorldConflictUpdate/1.0 (+https://world-conflict-update.pages.dev)"
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`${feed.name} RSS failed: ${response.status}`);
+  }
+
+  return {
+    sourceName: feed.name,
+    text: await response.text()
+  };
+}
+
 function toEvent(item, conflict, locations, index) {
-  const sourceMatch = item.title.match(/^(.*) - ([^-]+)$/);
-  const title = sourceMatch ? sourceMatch[1].trim() : item.title;
-  const sourceLabel = sourceMatch ? sourceMatch[2].trim() : "Google News";
-  const description = stripHtml(item.description) || "Live article mapped from Google News RSS.";
+  const title = item.normalizedTitle;
+  const sourceLabel = item.normalizedSourceLabel;
+  const description = item.normalizedDescription;
   const location =
     findLocation(`${title} ${description}`, locations) ||
     {
@@ -143,7 +224,7 @@ function toEvent(item, conflict, locations, index) {
   const confidence = confidenceFromLocation(location, title, description);
 
   return {
-    id: `${conflict.id}-rss-${index}`,
+    id: `${conflict.id}-${item.sourceType}-${index}`,
     title,
     description: description.slice(0, 240),
     locationName: location.name,
@@ -151,12 +232,63 @@ function toEvent(item, conflict, locations, index) {
     severity,
     confidence,
     exactness: location.exactness,
-    reportedAt: item.pubDate,
+    reportedAt: item.reportedAt,
     category: severity >= 4 ? "Attack" : severity === 3 ? "Military" : "Developing",
     sourceLabel,
     sourceUrl: item.link,
-    sourceType: "google-news-rss"
+    sourceType: item.sourceType
   };
+}
+
+function normalizeGoogleNewsItems(items, maxAgeHours) {
+  return filterRecentItems(items, maxAgeHours).map((item) => {
+    const sourceMatch = item.title.match(/^(.*) - ([^-]+)$/);
+    return {
+      ...item,
+      normalizedTitle: sourceMatch ? sourceMatch[1].trim() : item.title,
+      normalizedSourceLabel: sourceMatch ? sourceMatch[2].trim() : "Google News",
+      normalizedDescription: stripHtml(item.description) || "Live article mapped from Google News RSS.",
+      reportedAt: item.pubDate,
+      sourceType: "google-news-rss"
+    };
+  });
+}
+
+function normalizePublisherRssItems(items, maxAgeHours) {
+  return filterRecentItems(items, maxAgeHours).map((item) => ({
+    ...item,
+    normalizedTitle: item.title,
+    normalizedSourceLabel: item.sourceName || "RSS",
+    normalizedDescription: stripHtml(item.description) || "Live article mapped from publisher RSS.",
+    reportedAt: item.pubDate,
+    sourceType: "publisher-rss"
+  }));
+}
+
+function normalizeGdeltItems(payload, maxAgeHours) {
+  const articles = Array.isArray(payload?.articles) ? payload.articles : [];
+  const maxAgeMs = maxAgeHours * 60 * 60 * 1000;
+  const now = Date.now();
+
+  return articles
+    .map((article) => {
+      const publishedAt = normalizeGdeltDate(article.seendate || article.socialimage_timestamp || article.date);
+      return {
+        title: article.title || "",
+        link: article.url || article.url_mobile || "",
+        normalizedTitle: article.title || "",
+        normalizedSourceLabel: article.domain || article.sourcecountry || "GDELT",
+        normalizedDescription:
+          article.snippet ||
+          article.title ||
+          "Live article mapped from GDELT DOC 2.0.",
+        reportedAt: publishedAt ? new Date(publishedAt).toISOString() : "",
+        _publishedAt: publishedAt,
+        sourceType: "gdelt-doc"
+      };
+    })
+    .filter((item) => item.normalizedTitle && item.link && item._publishedAt && now - item._publishedAt <= maxAgeMs)
+    .sort((a, b) => b._publishedAt - a._publishedAt);
 }
 
 export async function onRequestGet(context) {
@@ -182,11 +314,38 @@ export async function onRequestGet(context) {
   let payload;
 
   try {
-    const rssText = await fetchGoogleNewsRss(conflict.rssQuery);
-    const items = filterRecentItems(
-      parseRssItems(rssText),
-      conflict.maxAgeHours || 168
-    ).slice(0, 30);
+    const [rssText, gdeltPayload, ...publisherResults] = await Promise.all([
+      fetchGoogleNewsRss(conflict.rssQuery),
+      fetchGdeltDoc(conflict.gdeltQuery, conflict.gdeltTimespan || "6h"),
+      ...NEWS_FEEDS.map((feed) =>
+        fetchRssFeed(feed).catch((error) => ({
+          sourceName: feed.name,
+          error: error.message,
+          text: ""
+        }))
+      )
+    ]);
+
+    const publisherItems = publisherResults.flatMap((result) => {
+      if (!result.text) return [];
+      return parseRssItems(result.text, result.sourceName);
+    });
+
+    const items = [
+      ...normalizeGoogleNewsItems(
+        parseRssItems(rssText),
+        conflict.maxAgeHours || 24
+      ),
+      ...normalizePublisherRssItems(
+        publisherItems,
+        conflict.maxAgeHours || 24
+      ).filter((item) => matchesConflictKeywords(item, conflict.sourceKeywords)),
+      ...normalizeGdeltItems(
+        gdeltPayload,
+        conflict.maxAgeHours || 24
+      )
+    ].sort((a, b) => Date.parse(b.reportedAt) - Date.parse(a.reportedAt)).slice(0, 50);
+
     const locations = locationsMap[conflict.id] || [];
     const events = deduplicateEvents(
       items.map((item, index) => toEvent(item, conflict, locations, index + 1))
@@ -198,11 +357,11 @@ export async function onRequestGet(context) {
 
     payload = {
       conflictId: conflict.id,
-      sourceLabel: "Google News RSS via Cloudflare Pages",
+      sourceLabel: "Google News + GDELT + publisher RSS bundle",
       status: "live",
       refreshIntervalSeconds: conflict.refreshIntervalSeconds,
       lastFetchedAt: new Date().toISOString(),
-      message: "Live events were refreshed from Google News RSS and mapped onto conflict-specific locations.",
+      message: "Live events were refreshed from Google News, GDELT, and multiple publisher RSS feeds with recency filtering.",
       events
     };
   } catch (error) {

@@ -7,9 +7,12 @@
       "center": [49.0, 31.2],
       "zoom": 6
     },
-    "rssQuery": "Ukraine drone missile shelling bombing strike attack when:7d",
+    "rssQuery": "Ukraine drone missile shelling bombing strike attack when:2d",
+    "gdeltQuery": "(Ukraine OR Kyiv OR Kharkiv OR Odesa OR Dnipro OR Zaporizhzhia OR Sumy OR Kherson OR Donetsk OR Luhansk OR Belgorod OR Taganrog) (drone OR missile OR shelling OR bombing OR strike OR attack)",
+    "gdeltTimespan": "6h",
+    "sourceKeywords": ["ukraine", "russia", "kyiv", "kharkiv", "odesa", "dnipro", "zaporizhzhia", "sumy", "kherson", "donetsk", "luhansk", "belgorod", "taganrog", "crimea", "donbas", "drone", "missile", "shelling", "strike"],
     "refreshIntervalSeconds": 600,
-    "maxAgeHours": 168
+    "maxAgeHours": 24
   },
   {
     "id": "israel-gaza",
@@ -19,9 +22,12 @@
       "center": [31.4, 34.4],
       "zoom": 8
     },
-    "rssQuery": "Gaza Rafah Khan Younis Deir al-Balah airstrike bombing attack aid shelling when:7d",
+    "rssQuery": "Gaza Rafah Khan Younis Deir al-Balah airstrike bombing attack aid shelling when:2d",
+    "gdeltQuery": "(Gaza OR Rafah OR \"Khan Younis\" OR \"Deir al-Balah\" OR Jabalia OR \"Beit Hanoun\" OR Ashkelon OR Jerusalem OR \"Tel Aviv\") (airstrike OR bombing OR attack OR shelling OR aid OR clashes)",
+    "gdeltTimespan": "6h",
+    "sourceKeywords": ["gaza", "rafah", "khan younis", "deir al-balah", "deir al balah", "jabalia", "beit hanoun", "israel", "hamas", "ashkelon", "jerusalem", "tel aviv", "airstrike", "shelling", "aid"],
     "refreshIntervalSeconds": 600,
-    "maxAgeHours": 168
+    "maxAgeHours": 24
   },
   {
     "id": "israel-iran-usa",
@@ -31,8 +37,11 @@
       "center": [32.5, 45.0],
       "zoom": 5
     },
-    "rssQuery": "Israel Iran United States strike missile drone retaliation deployment interception when:14d",
+    "rssQuery": "Israel Iran United States strike missile drone retaliation deployment interception when:3d",
+    "gdeltQuery": "(Israel OR Iran OR \"United States\" OR Tehran OR Isfahan OR Natanz OR Fordow OR Baghdad OR Damascus OR Beirut OR Sanaa OR Hormuz OR \"Red Sea\") (strike OR missile OR drone OR retaliation OR deployment OR interception)",
+    "gdeltTimespan": "12h",
+    "sourceKeywords": ["israel", "iran", "united states", "usa", "tehran", "isfahan", "natanz", "fordow", "baghdad", "damascus", "beirut", "sanaa", "hormuz", "red sea", "missile", "drone", "retaliation", "interception", "deployment"],
     "refreshIntervalSeconds": 600,
-    "maxAgeHours": 336
+    "maxAgeHours": 36
   }
 ]

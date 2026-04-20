@@ -339,10 +339,24 @@ input[type="range"] {
 }
 
 .tactical-marker.cluster {
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
+  font-size: 0.55rem;
+  text-align: center;
   background: #80caff;
   box-shadow: 0 0 0 10px rgba(128, 202, 255, 0.14);
+}
+
+.tactical-marker.bombing.cluster {
+  background: #ff857d;
+}
+
+.tactical-marker.drone.cluster {
+  background: #ffc46b;
+}
+
+.tactical-marker.combat.cluster {
+  background: #7df9c7;
 }
 
 .cluster-list {

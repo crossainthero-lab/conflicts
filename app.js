@@ -126,7 +126,7 @@ function buildClusterPopup(group) {
 
   return `
     <div>
-      <h3 class="popup-title">${group.events.length} News Articles</h3>
+      <h3 class="popup-title">${group.events.length} ${group.symbol.label} Events</h3>
       <p class="popup-copy"><strong>${group.locationName}</strong></p>
       <div class="cluster-list">${items}</div>
     </div>
@@ -140,38 +140,27 @@ function clearMarkers() {
 }
 
 function buildMarkerGroups(events) {
-  const newsGroups = new Map();
+  const eventGroups = new Map();
   const groups = [];
 
   events.forEach((event) => {
     const symbol = getEventSymbol(event);
     const coordKey = `${event.coords[0].toFixed(4)},${event.coords[1].toFixed(4)}`;
-
-    if (symbol.type === "news") {
-      const group = newsGroups.get(coordKey) || {
-        id: `news-${coordKey}`,
-        type: "cluster",
-        coords: event.coords,
-        locationName: event.locationName,
-        events: []
-      };
-
-      group.events.push(event);
-      newsGroups.set(coordKey, group);
-      return;
-    }
-
-    groups.push({
-      id: event.id,
-      type: "single",
+    const groupKey = `${coordKey}-${symbol.type}`;
+    const group = eventGroups.get(groupKey) || {
+      id: `${symbol.type}-${coordKey}`,
+      type: "cluster",
       coords: event.coords,
-      event,
-      events: [event],
-      symbol
-    });
+      locationName: event.locationName,
+      symbol,
+      events: []
+    };
+
+    group.events.push(event);
+    eventGroups.set(groupKey, group);
   });
 
-  newsGroups.forEach((group) => {
+  eventGroups.forEach((group) => {
     if (group.events.length === 1) {
       const event = group.events[0];
       groups.push({
@@ -231,15 +220,15 @@ function renderMarkers(events) {
     const markerPosition = spreadCoords.get(group.id) || group.coords;
     const symbol =
       group.type === "cluster"
-        ? { type: "news cluster", label: String(group.events.length) }
+        ? { type: `${group.symbol.type} cluster`, label: `${group.events.length} ${group.symbol.label}` }
         : group.symbol;
 
     const marker = L.marker(markerPosition, {
       icon: L.divIcon({
         className: "",
         html: `<div class="tactical-marker ${symbol.type} ${group.events[0].exactness === "approximate" ? "approximate" : ""}"><span>${symbol.label}</span></div>`,
-        iconSize: group.type === "cluster" ? [42, 42] : [34, 34],
-        iconAnchor: group.type === "cluster" ? [21, 21] : [17, 17]
+        iconSize: group.type === "cluster" ? [52, 52] : [34, 34],
+        iconAnchor: group.type === "cluster" ? [26, 26] : [17, 17]
       })
     })
       .addTo(map)

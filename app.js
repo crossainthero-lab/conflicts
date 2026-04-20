@@ -93,20 +93,112 @@ function buildPopup(event) {
   `;
 }
 
+function getEventSymbol(event) {
+  const text = `${event.title} ${event.description} ${event.category}`.toLowerCase();
+
+  if (/drone|uav/.test(text)) {
+    return { type: "drone", label: "UAV" };
+  }
+
+  if (/bomb|missile|airstrike|strike|explosion|blast|rocket/.test(text)) {
+    return { type: "bombing", label: "BMB" };
+  }
+
+  if (/gun|shooting|combat|clash|fighting|firefight|troop|raid/.test(text)) {
+    return { type: "combat", label: "GUN" };
+  }
+
+  return { type: "news", label: "DOC" };
+}
+
+function buildClusterPopup(group) {
+  const items = group.events
+    .map((event) => {
+      return `
+        <article class="cluster-item">
+          <strong>${event.title}</strong>
+          <span>${formatTime(event.reportedAt)} | Confidence ${event.confidence}/5</span>
+          <a href="${event.sourceUrl}" target="_blank" rel="noreferrer">${event.sourceLabel}</a>
+        </article>
+      `;
+    })
+    .join("");
+
+  return `
+    <div>
+      <h3 class="popup-title">${group.events.length} News Articles</h3>
+      <p class="popup-copy"><strong>${group.locationName}</strong></p>
+      <div class="cluster-list">${items}</div>
+    </div>
+  `;
+}
+
 function clearMarkers() {
   markers.forEach((marker) => marker.remove());
   markers = [];
   markerLookup = new Map();
 }
 
-function getSpreadCoords(events) {
+function buildMarkerGroups(events) {
+  const newsGroups = new Map();
+  const groups = [];
+
+  events.forEach((event) => {
+    const symbol = getEventSymbol(event);
+    const coordKey = `${event.coords[0].toFixed(4)},${event.coords[1].toFixed(4)}`;
+
+    if (symbol.type === "news") {
+      const group = newsGroups.get(coordKey) || {
+        id: `news-${coordKey}`,
+        type: "cluster",
+        coords: event.coords,
+        locationName: event.locationName,
+        events: []
+      };
+
+      group.events.push(event);
+      newsGroups.set(coordKey, group);
+      return;
+    }
+
+    groups.push({
+      id: event.id,
+      type: "single",
+      coords: event.coords,
+      event,
+      events: [event],
+      symbol
+    });
+  });
+
+  newsGroups.forEach((group) => {
+    if (group.events.length === 1) {
+      const event = group.events[0];
+      groups.push({
+        id: event.id,
+        type: "single",
+        coords: event.coords,
+        event,
+        events: [event],
+        symbol: getEventSymbol(event)
+      });
+      return;
+    }
+
+    groups.push(group);
+  });
+
+  return groups;
+}
+
+function getSpreadCoords(groups) {
   const grouped = new Map();
   const spread = new Map();
 
-  events.forEach((event) => {
-    const key = `${event.coords[0].toFixed(4)},${event.coords[1].toFixed(4)}`;
+  groups.forEach((group) => {
+    const key = `${group.coords[0].toFixed(4)},${group.coords[1].toFixed(4)}`;
     const bucket = grouped.get(key) || [];
-    bucket.push(event);
+    bucket.push(group);
     grouped.set(key, bucket);
   });
 
@@ -116,14 +208,14 @@ function getSpreadCoords(events) {
       return;
     }
 
-    bucket.forEach((event, index) => {
+    bucket.forEach((group, index) => {
       const angle = (Math.PI * 2 * index) / bucket.length;
-      const radius = event.exactness === "exact" ? 0.12 : 0.22;
+      const radius = group.type === "cluster" ? 0.18 : 0.12;
       const adjusted = [
-        event.coords[0] + Math.sin(angle) * radius,
-        event.coords[1] + Math.cos(angle) * radius
+        group.coords[0] + Math.sin(angle) * radius,
+        group.coords[1] + Math.cos(angle) * radius
       ];
-      spread.set(event.id, adjusted);
+      spread.set(group.id, adjusted);
     });
   });
 
@@ -132,23 +224,29 @@ function getSpreadCoords(events) {
 
 function renderMarkers(events) {
   clearMarkers();
-  const spreadCoords = getSpreadCoords(events);
+  const groups = buildMarkerGroups(events);
+  const spreadCoords = getSpreadCoords(groups);
 
-  events.forEach((event) => {
-    const markerPosition = spreadCoords.get(event.id) || event.coords;
+  groups.forEach((group) => {
+    const markerPosition = spreadCoords.get(group.id) || group.coords;
+    const symbol =
+      group.type === "cluster"
+        ? { type: "news cluster", label: String(group.events.length) }
+        : group.symbol;
+
     const marker = L.marker(markerPosition, {
       icon: L.divIcon({
         className: "",
-        html: `<div class="custom-marker ${event.exactness === "approximate" ? "approximate" : ""}" style="background:${severityColor(event.severity)}"></div>`,
-        iconSize: [20, 20],
-        iconAnchor: [10, 10]
+        html: `<div class="tactical-marker ${symbol.type} ${group.events[0].exactness === "approximate" ? "approximate" : ""}"><span>${symbol.label}</span></div>`,
+        iconSize: group.type === "cluster" ? [42, 42] : [34, 34],
+        iconAnchor: group.type === "cluster" ? [21, 21] : [17, 17]
       })
     })
       .addTo(map)
-      .bindPopup(buildPopup(event));
+      .bindPopup(group.type === "cluster" ? buildClusterPopup(group) : buildPopup(group.event));
 
     markers.push(marker);
-    markerLookup.set(event.id, marker);
+    group.events.forEach((event) => markerLookup.set(event.id, marker));
   });
 }
 
@@ -189,6 +287,7 @@ function renderEventList(events) {
       location.textContent = `${event.locationName} | ${formatTime(event.reportedAt)}`;
 
       [
+        getEventSymbol(event).label,
         event.category,
         event.exactness === "exact" ? "Exact" : "Approximate",
         event.sourceType || "live-source"

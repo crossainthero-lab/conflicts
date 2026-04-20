@@ -1,0 +1,44 @@
+[
+  {
+    "id": "russia-ukraine",
+    "title": "Russia-Ukraine",
+    "summary": "Live conflict monitoring across Ukraine with exact markers when reporting strongly anchors to a city or landmark, and approximate markers when only a broader area is supported.",
+    "focus": {
+      "center": [49.0, 31.2],
+      "zoom": 6
+    },
+    "rssQuery": "Ukraine drone missile shelling bombing strike attack when:2d",
+    "gdeltQuery": "(Ukraine OR Kyiv OR Kharkiv OR Odesa OR Dnipro OR Zaporizhzhia OR Sumy OR Kherson OR Donetsk OR Luhansk OR Belgorod OR Taganrog) (drone OR missile OR shelling OR bombing OR strike OR attack)",
+    "gdeltTimespan": "6h",
+    "refreshIntervalSeconds": 600,
+    "maxAgeHours": 24
+  },
+  {
+    "id": "israel-gaza",
+    "title": "Israel-Gaza",
+    "summary": "Tracks strikes, clashes, aid-route disruption, and major military developments in and around Gaza with confidence-ranked geography.",
+    "focus": {
+      "center": [31.4, 34.4],
+      "zoom": 8
+    },
+    "rssQuery": "Gaza Rafah Khan Younis Deir al-Balah airstrike bombing attack aid shelling when:2d",
+    "gdeltQuery": "(Gaza OR Rafah OR \"Khan Younis\" OR \"Deir al-Balah\" OR Jabalia OR \"Beit Hanoun\" OR Ashkelon OR Jerusalem OR \"Tel Aviv\") (airstrike OR bombing OR attack OR shelling OR aid OR clashes)",
+    "gdeltTimespan": "6h",
+    "refreshIntervalSeconds": 600,
+    "maxAgeHours": 24
+  },
+  {
+    "id": "israel-iran-usa",
+    "title": "Israel-Iran-USA",
+    "summary": "Watches the Israel-Iran-United States escalation space, including strikes, military deployments, intercepts, and regional spillover reporting.",
+    "focus": {
+      "center": [32.5, 45.0],
+      "zoom": 5
+    },
+    "rssQuery": "Israel Iran United States strike missile drone retaliation deployment interception when:3d",
+    "gdeltQuery": "(Israel OR Iran OR \"United States\" OR Tehran OR Isfahan OR Natanz OR Fordow OR Baghdad OR Damascus OR Beirut OR Sanaa OR Hormuz OR \"Red Sea\") (strike OR missile OR drone OR retaliation OR deployment OR interception)",
+    "gdeltTimespan": "12h",
+    "refreshIntervalSeconds": 600,
+    "maxAgeHours": 36
+  }
+]

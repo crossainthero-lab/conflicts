@@ -18,12 +18,13 @@ On Cloudflare Pages, those are now served by Pages Functions instead of the loca
 
 ## Live-source strategy
 
-The current free-source ingestion path uses `Google News RSS`.
+The current free-source ingestion path uses `Google News RSS` plus `GDELT DOC 2.0`.
 
-- each launch conflict has its own RSS query
+- each launch conflict has its own RSS query and GDELT query
 - Pages Functions map articles onto a conflict-specific location list
 - exact markers are used when known cities or facilities are explicitly matched
 - approximate markers are used when only broader regional language is found
+- very old articles are filtered out before they become markers
 - fallback cache data is returned if live fetches fail
 
 This is free and deployable, but still heuristic. It is best thought of as a strong MVP, not a final intelligence-grade system.
